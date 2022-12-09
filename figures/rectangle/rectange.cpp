@@ -1,19 +1,25 @@
 #include "rectangle.h"
+#include <QPainter>
 
-Rectangle::Rectangle(QObject *parent) : QObject(parent), QGraphicsItem() {}
+Rectangle::Rectangle(QPointF point, QObject *parent) : Figure(point, parent) {
+  Q_UNUSED(point)
+}
 
 Rectangle::~Rectangle() {}
 
-void Rectangle::mouseMoveEvent(QGraphicsSceneMouseEvent *event) {
-  this->setPos(mapToScene(event->pos()));
-}
+// Реализуем метод отрисовки
+void Rectangle::paint(QPainter *painter, const QStyleOptionGraphicsItem *option,
+                      QWidget *widget) {
+  painter->setPen(QPen(Qt::black, 2));
 
-void Rectangle::mousePressEvent(QGraphicsSceneMouseEvent *event) {
-  // this->setCursor(QCursor(Qt::ClosedHandCursor));
-  // Q_UNUSED(event);
-}
+  QRectF rect(
+      endPoint().x() > startPoint().x() ? startPoint().x() : endPoint().x(),
+      endPoint().y() > startPoint().y() ? startPoint().y() : endPoint().y(),
+      qAbs(endPoint().x() - startPoint().x()),
+      qAbs(endPoint().y() - startPoint().y()));
 
-void Rectangle::mouseReleaseEvent(QGraphicsSceneMouseEvent *event) {
-  // this->setCursor(QCursor(Qt::ArrowCursor));
-  // Q_UNUSED(event);
+  painter->drawRect(rect);
+
+  Q_UNUSED(option)
+  Q_UNUSED(widget)
 }

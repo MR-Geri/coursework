@@ -1,7 +1,7 @@
 CMakeFiles/coursework.dir/coursework_autogen/mocs_compilation.cpp.o: \
  /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/TXKPOHTVN7/moc_main_window.cpp \
+ /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/PDH6BJJCOA/moc_figure.cpp \
  /usr/include/c++/12/memory /usr/include/c++/12/bits/stl_algobase.h \
  /usr/include/c++/12/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
@@ -95,11 +95,9 @@ CMakeFiles/coursework.dir/coursework_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/12/backward/auto_ptr.h \
  /usr/include/c++/12/pstl/glue_memory_defs.h \
  /usr/include/c++/12/pstl/execution_defs.h \
- /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/TXKPOHTVN7/../../main_window/main_window.h \
- /usr/include/qt5/QtWidgets/QMainWindow \
- /usr/include/qt5/QtWidgets/qmainwindow.h \
- /usr/include/qt5/QtWidgets/qtwidgetsglobal.h \
- /usr/include/qt5/QtGui/qtguiglobal.h /usr/include/qt5/QtCore/qglobal.h \
+ /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/PDH6BJJCOA/../../../../../../projects/c/two_course/coursework/figures/figure/figure.h \
+ /usr/include/qt5/QtCore/QDebug /usr/include/qt5/QtCore/qdebug.h \
+ /usr/include/qt5/QtCore/qalgorithms.h /usr/include/qt5/QtCore/qglobal.h \
  /usr/include/c++/12/cstddef /usr/include/c++/12/utility \
  /usr/include/c++/12/bits/stl_relops.h \
  /usr/include/c++/12/initializer_list /usr/include/assert.h \
@@ -128,19 +126,14 @@ CMakeFiles/coursework.dir/coursework_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt5/QtCore/qglobalstatic.h \
  /usr/include/qt5/QtCore/qnumeric.h \
  /usr/include/qt5/QtCore/qversiontagging.h \
- /usr/include/qt5/QtGui/qtgui-config.h \
- /usr/include/qt5/QtWidgets/qtwidgets-config.h \
- /usr/include/qt5/QtWidgets/qwidget.h \
- /usr/include/qt5/QtGui/qwindowdefs.h \
- /usr/include/qt5/QtCore/qobjectdefs.h \
- /usr/include/qt5/QtCore/qnamespace.h \
- /usr/include/qt5/QtCore/qobjectdefs_impl.h \
- /usr/include/qt5/QtCore/qobject.h /usr/include/qt5/QtCore/qstring.h \
- /usr/include/qt5/QtCore/qchar.h /usr/include/qt5/QtCore/qbytearray.h \
+ /usr/include/qt5/QtCore/qhash.h /usr/include/qt5/QtCore/qchar.h \
+ /usr/include/qt5/QtCore/qiterator.h /usr/include/qt5/QtCore/qlist.h \
  /usr/include/qt5/QtCore/qrefcount.h /usr/include/qt5/QtCore/qarraydata.h \
  /usr/include/string.h /usr/include/strings.h /usr/include/c++/12/cstdint \
- /usr/include/c++/12/stdlib.h /usr/include/c++/12/string \
- /usr/include/c++/12/bits/char_traits.h \
+ /usr/include/qt5/QtCore/qhashfunctions.h \
+ /usr/include/qt5/QtCore/qstring.h /usr/include/qt5/QtCore/qbytearray.h \
+ /usr/include/qt5/QtCore/qnamespace.h /usr/include/c++/12/stdlib.h \
+ /usr/include/c++/12/string /usr/include/c++/12/bits/char_traits.h \
  /usr/include/c++/12/bits/localefwd.h \
  /usr/include/c++/12/x86_64-redhat-linux/bits/c++locale.h \
  /usr/include/c++/12/clocale /usr/include/locale.h \
@@ -171,10 +164,7 @@ CMakeFiles/coursework.dir/coursework_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/12/stdexcept /usr/include/c++/12/bits/streambuf.tcc \
  /usr/include/qt5/QtCore/qstringliteral.h \
  /usr/include/qt5/QtCore/qstringalgorithms.h \
- /usr/include/qt5/QtCore/qstringview.h /usr/include/qt5/QtCore/qlist.h \
- /usr/include/qt5/QtCore/qalgorithms.h \
- /usr/include/qt5/QtCore/qiterator.h \
- /usr/include/qt5/QtCore/qhashfunctions.h /usr/include/qt5/QtCore/qpair.h \
+ /usr/include/qt5/QtCore/qstringview.h /usr/include/qt5/QtCore/qpair.h \
  /usr/include/c++/12/numeric /usr/include/c++/12/bits/stl_numeric.h \
  /usr/include/c++/12/pstl/glue_numeric_defs.h \
  /usr/include/c++/12/functional /usr/include/c++/12/bits/std_function.h \
@@ -197,32 +187,56 @@ CMakeFiles/coursework.dir/coursework_autogen/mocs_compilation.cpp.o: \
  /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
  /usr/include/bits/uio_lim.h /usr/include/qt5/QtCore/qbytearraylist.h \
  /usr/include/qt5/QtCore/qstringlist.h /usr/include/qt5/QtCore/qregexp.h \
- /usr/include/qt5/QtCore/qstringmatcher.h \
+ /usr/include/qt5/QtCore/qstringmatcher.h /usr/include/qt5/QtCore/qmap.h \
+ /usr/include/c++/12/map /usr/include/c++/12/bits/stl_tree.h \
+ /usr/include/c++/12/bits/stl_map.h \
+ /usr/include/c++/12/bits/stl_multimap.h \
+ /usr/include/qt5/QtCore/qtextstream.h \
+ /usr/include/qt5/QtCore/qiodevice.h /usr/include/qt5/QtCore/qobject.h \
+ /usr/include/qt5/QtCore/qobjectdefs.h \
+ /usr/include/qt5/QtCore/qobjectdefs_impl.h \
  /usr/include/qt5/QtCore/qscopedpointer.h \
  /usr/include/qt5/QtCore/qmetatype.h \
  /usr/include/qt5/QtCore/qvarlengtharray.h \
- /usr/include/qt5/QtCore/qcontainerfwd.h /usr/include/c++/12/map \
- /usr/include/c++/12/bits/stl_tree.h /usr/include/c++/12/bits/stl_map.h \
- /usr/include/c++/12/bits/stl_multimap.h \
+ /usr/include/qt5/QtCore/qcontainerfwd.h \
  /usr/include/qt5/QtCore/qobject_impl.h /usr/include/c++/12/chrono \
  /usr/include/c++/12/bits/chrono.h /usr/include/c++/12/ratio \
  /usr/include/c++/12/limits /usr/include/c++/12/ctime \
  /usr/include/c++/12/bits/parse_numbers.h \
- /usr/include/qt5/QtCore/qmargins.h /usr/include/qt5/QtGui/qpaintdevice.h \
- /usr/include/qt5/QtCore/qrect.h /usr/include/qt5/QtCore/qsize.h \
- /usr/include/qt5/QtCore/qpoint.h /usr/include/qt5/QtGui/qpalette.h \
- /usr/include/qt5/QtGui/qcolor.h /usr/include/qt5/QtGui/qrgb.h \
- /usr/include/qt5/QtGui/qrgba64.h /usr/include/qt5/QtGui/qbrush.h \
- /usr/include/qt5/QtGui/qmatrix.h /usr/include/qt5/QtGui/qpolygon.h \
- /usr/include/qt5/QtGui/qregion.h /usr/include/qt5/QtCore/qdatastream.h \
- /usr/include/qt5/QtCore/qiodevice.h /usr/include/qt5/QtCore/qline.h \
- /usr/include/qt5/QtGui/qtransform.h /usr/include/qt5/QtGui/qimage.h \
- /usr/include/qt5/QtGui/qpixelformat.h /usr/include/qt5/QtGui/qpixmap.h \
+ /usr/include/qt5/QtCore/qlocale.h /usr/include/qt5/QtCore/qvariant.h \
+ /usr/include/c++/12/variant /usr/include/qt5/QtCore/qshareddata.h \
+ /usr/include/qt5/QtCore/qset.h \
+ /usr/include/qt5/QtCore/qcontiguouscache.h \
  /usr/include/qt5/QtCore/qsharedpointer.h \
- /usr/include/qt5/QtCore/qshareddata.h /usr/include/qt5/QtCore/qhash.h \
  /usr/include/qt5/QtCore/qsharedpointer_impl.h \
- /usr/include/qt5/QtGui/qfont.h /usr/include/qt5/QtGui/qfontmetrics.h \
- /usr/include/qt5/QtGui/qfontinfo.h \
+ /usr/include/qt5/QtWidgets/QGraphicsItem \
+ /usr/include/qt5/QtWidgets/qgraphicsitem.h \
+ /usr/include/qt5/QtWidgets/qtwidgetsglobal.h \
+ /usr/include/qt5/QtGui/qtguiglobal.h \
+ /usr/include/qt5/QtGui/qtgui-config.h \
+ /usr/include/qt5/QtWidgets/qtwidgets-config.h \
+ /usr/include/qt5/QtCore/qrect.h /usr/include/qt5/QtCore/qmargins.h \
+ /usr/include/qt5/QtCore/qsize.h /usr/include/qt5/QtCore/qpoint.h \
+ /usr/include/qt5/QtGui/qpainterpath.h /usr/include/qt5/QtGui/qmatrix.h \
+ /usr/include/qt5/QtGui/qpolygon.h /usr/include/qt5/QtGui/qregion.h \
+ /usr/include/qt5/QtGui/qwindowdefs.h \
+ /usr/include/qt5/QtCore/qdatastream.h /usr/include/qt5/QtCore/qline.h \
+ /usr/include/qt5/QtGui/qtransform.h /usr/include/qt5/QtGui/qpixmap.h \
+ /usr/include/qt5/QtGui/qpaintdevice.h /usr/include/qt5/QtGui/qcolor.h \
+ /usr/include/qt5/QtGui/qrgb.h /usr/include/qt5/QtGui/qrgba64.h \
+ /usr/include/qt5/QtGui/qimage.h /usr/include/qt5/QtGui/qpixelformat.h \
+ /usr/include/qt5/QtCore/QObject /usr/include/qt5/QtCore/qobject.h \
+ /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/TQNZCBDM3P/moc_rectangle.cpp \
+ /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/TQNZCBDM3P/../../../../../../projects/c/two_course/coursework/figures/rectangle/rectangle.h \
+ /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/7YTNYDDD2B/moc_rhomb.cpp \
+ /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/7YTNYDDD2B/../../../../../../projects/c/two_course/coursework/figures/rhomb/rhomb.h \
+ /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/TXKPOHTVN7/moc_main_window.cpp \
+ /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/TXKPOHTVN7/../../../../../../projects/c/two_course/coursework/main_window/main_window.h \
+ /usr/include/qt5/QtWidgets/QMainWindow \
+ /usr/include/qt5/QtWidgets/qmainwindow.h \
+ /usr/include/qt5/QtWidgets/qwidget.h /usr/include/qt5/QtGui/qpalette.h \
+ /usr/include/qt5/QtGui/qbrush.h /usr/include/qt5/QtGui/qfont.h \
+ /usr/include/qt5/QtGui/qfontmetrics.h /usr/include/qt5/QtGui/qfontinfo.h \
  /usr/include/qt5/QtWidgets/qsizepolicy.h \
  /usr/include/qt5/QtGui/qcursor.h /usr/include/qt5/QtGui/qkeysequence.h \
  /usr/include/qt5/QtWidgets/qtabwidget.h /usr/include/qt5/QtGui/qicon.h \
@@ -234,9 +248,6 @@ CMakeFiles/coursework.dir/coursework_autogen/mocs_compilation.cpp.o: \
  /home/mr-geri/Проекты/c/two_course/coursework/constants.h \
  /home/mr-geri/Проекты/c/two_course/coursework/myGraphicView/myGraphicView.h \
  /usr/include/qt5/QtWidgets/QGraphicsItemGroup \
- /usr/include/qt5/QtWidgets/qgraphicsitem.h \
- /usr/include/qt5/QtCore/qvariant.h /usr/include/qt5/QtCore/qmap.h \
- /usr/include/c++/12/variant /usr/include/qt5/QtGui/qpainterpath.h \
  /usr/include/qt5/QtWidgets/QGraphicsScene \
  /usr/include/qt5/QtWidgets/qgraphicsscene.h \
  /usr/include/qt5/QtGui/qpen.h /usr/include/qt5/QtWidgets/QGraphicsView \
@@ -249,12 +260,6 @@ CMakeFiles/coursework.dir/coursework_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt5/QtCore/qbasictimer.h /usr/include/qt5/QtWidgets/QWidget \
  /usr/include/qt5/QtWidgets/qwidget.h \
  /home/mr-geri/Проекты/c/two_course/coursework/myGraphicScene/myGraphicScene.h \
- /home/mr-geri/Проекты/c/two_course/coursework/figures/figure/figure.h \
- /usr/include/qt5/QtCore/QObject /usr/include/qt5/QtCore/qobject.h \
- /usr/include/qt5/QtWidgets/QGraphicsItem /usr/include/qt5/QtCore/QDebug \
- /usr/include/qt5/QtCore/qdebug.h /usr/include/qt5/QtCore/qtextstream.h \
- /usr/include/qt5/QtCore/qlocale.h /usr/include/qt5/QtCore/qset.h \
- /usr/include/qt5/QtCore/qcontiguouscache.h \
  /home/mr-geri/Проекты/c/two_course/coursework/randomPoints/randomPoints.h \
  /usr/include/qt5/QtCore/QPoint /usr/include/qt5/QtCore/qpoint.h \
  /usr/include/qt5/QtWidgets/qgraphicsitem.h \

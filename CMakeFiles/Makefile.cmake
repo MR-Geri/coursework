@@ -7,12 +7,12 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "/home/mr-geri/projects/c/two_course/coursework/CMakeLists.txt"
+  "/home/mr-geri/projects/c/two_course/coursework/resource.qrc"
   "CMakeFiles/3.25.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.25.1/CMakeSystem.cmake"
   "CMakeFiles/VerifyGlobs.cmake"
   "CMakeFiles/cmake.verify_globs"
-  "CMakeLists.txt"
-  "resource.qrc"
   "/usr/lib64/cmake/Qt5/Qt5Config.cmake"
   "/usr/lib64/cmake/Qt5/Qt5ConfigVersion.cmake"
   "/usr/lib64/cmake/Qt5/Qt5ModuleLocation.cmake"

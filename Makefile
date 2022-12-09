@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mr-geri/Проекты/c/two_course/coursework
+CMAKE_SOURCE_DIR = /home/mr-geri/projects/c/two_course/coursework
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/mr-geri/Проекты/c/two_course/coursework
@@ -236,6 +236,78 @@ coursework_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/coursework_autogen/mocs_compilation.cpp.s
 .PHONY : coursework_autogen/mocs_compilation.cpp.s
 
+figures/figure/figure.o: figures/figure/figure.cpp.o
+.PHONY : figures/figure/figure.o
+
+# target to build an object file
+figures/figure/figure.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/figures/figure/figure.cpp.o
+.PHONY : figures/figure/figure.cpp.o
+
+figures/figure/figure.i: figures/figure/figure.cpp.i
+.PHONY : figures/figure/figure.i
+
+# target to preprocess a source file
+figures/figure/figure.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/figures/figure/figure.cpp.i
+.PHONY : figures/figure/figure.cpp.i
+
+figures/figure/figure.s: figures/figure/figure.cpp.s
+.PHONY : figures/figure/figure.s
+
+# target to generate assembly for a file
+figures/figure/figure.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/figures/figure/figure.cpp.s
+.PHONY : figures/figure/figure.cpp.s
+
+figures/rectangle/rectange.o: figures/rectangle/rectange.cpp.o
+.PHONY : figures/rectangle/rectange.o
+
+# target to build an object file
+figures/rectangle/rectange.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/figures/rectangle/rectange.cpp.o
+.PHONY : figures/rectangle/rectange.cpp.o
+
+figures/rectangle/rectange.i: figures/rectangle/rectange.cpp.i
+.PHONY : figures/rectangle/rectange.i
+
+# target to preprocess a source file
+figures/rectangle/rectange.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/figures/rectangle/rectange.cpp.i
+.PHONY : figures/rectangle/rectange.cpp.i
+
+figures/rectangle/rectange.s: figures/rectangle/rectange.cpp.s
+.PHONY : figures/rectangle/rectange.s
+
+# target to generate assembly for a file
+figures/rectangle/rectange.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/figures/rectangle/rectange.cpp.s
+.PHONY : figures/rectangle/rectange.cpp.s
+
+figures/rhomb/rhomb.o: figures/rhomb/rhomb.cpp.o
+.PHONY : figures/rhomb/rhomb.o
+
+# target to build an object file
+figures/rhomb/rhomb.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/figures/rhomb/rhomb.cpp.o
+.PHONY : figures/rhomb/rhomb.cpp.o
+
+figures/rhomb/rhomb.i: figures/rhomb/rhomb.cpp.i
+.PHONY : figures/rhomb/rhomb.i
+
+# target to preprocess a source file
+figures/rhomb/rhomb.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/figures/rhomb/rhomb.cpp.i
+.PHONY : figures/rhomb/rhomb.cpp.i
+
+figures/rhomb/rhomb.s: figures/rhomb/rhomb.cpp.s
+.PHONY : figures/rhomb/rhomb.s
+
+# target to generate assembly for a file
+figures/rhomb/rhomb.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/figures/rhomb/rhomb.cpp.s
+.PHONY : figures/rhomb/rhomb.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -376,6 +448,15 @@ help:
 	@echo "... coursework_autogen/mocs_compilation.o"
 	@echo "... coursework_autogen/mocs_compilation.i"
 	@echo "... coursework_autogen/mocs_compilation.s"
+	@echo "... figures/figure/figure.o"
+	@echo "... figures/figure/figure.i"
+	@echo "... figures/figure/figure.s"
+	@echo "... figures/rectangle/rectange.o"
+	@echo "... figures/rectangle/rectange.i"
+	@echo "... figures/rectangle/rectange.s"
+	@echo "... figures/rhomb/rhomb.o"
+	@echo "... figures/rhomb/rhomb.i"
+	@echo "... figures/rhomb/rhomb.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

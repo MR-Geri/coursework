@@ -7,7 +7,7 @@
 *****************************************************************************/
 
 #include <memory>
-#include "../../myGraphicView/myGraphicView.h"
+#include "../../../../../../projects/c/two_course/coursework/myGraphicView/myGraphicView.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)

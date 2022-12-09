@@ -1,4 +1,4 @@
-/home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/VCNREXAN4N/moc_myGraphicView.cpp: /home/mr-geri/Проекты/c/two_course/coursework/myGraphicView/myGraphicView.h \
+/home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/VCNREXAN4N/moc_myGraphicView.cpp: /home/mr-geri/projects/c/two_course/coursework/myGraphicView/myGraphicView.h \
   /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/moc_predefs.h \
   /home/mr-geri/Проекты/c/two_course/coursework/constants.h \
   /home/mr-geri/Проекты/c/two_course/coursework/figures/figure/figure.h \

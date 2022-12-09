@@ -1,5 +1,5 @@
 CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.o: \
- /home/mr-geri/Проекты/c/two_course/coursework/myGraphicScene/myGraphicScene.cpp \
+ /home/mr-geri/projects/c/two_course/coursework/myGraphicScene/myGraphicScene.cpp \
  /usr/include/stdc-predef.h \
  /usr/include/qt5/QtWidgets/QGraphicsEllipseItem \
  /usr/include/qt5/QtWidgets/qgraphicsitem.h \
@@ -240,13 +240,15 @@ CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.o: \
  /usr/include/c++/12/bits/basic_ios.tcc \
  /usr/include/c++/12/bits/ostream.tcc /usr/include/c++/12/istream \
  /usr/include/c++/12/bits/istream.tcc \
- /home/mr-geri/Проекты/c/two_course/coursework/myGraphicScene/myGraphicScene.h \
+ /home/mr-geri/Проекты/c/two_course/coursework/figures/rectangle/rectangle.h \
  /home/mr-geri/Проекты/c/two_course/coursework/figures/figure/figure.h \
- /usr/include/qt5/QtCore/QObject /usr/include/qt5/QtCore/qobject.h \
- /usr/include/qt5/QtWidgets/QGraphicsItem /usr/include/qt5/QtCore/QDebug \
- /usr/include/qt5/QtCore/qdebug.h /usr/include/qt5/QtCore/qtextstream.h \
- /usr/include/qt5/QtCore/qlocale.h \
+ /usr/include/qt5/QtCore/QDebug /usr/include/qt5/QtCore/qdebug.h \
+ /usr/include/qt5/QtCore/qtextstream.h /usr/include/qt5/QtCore/qlocale.h \
  /usr/include/qt5/QtCore/qcontiguouscache.h \
+ /usr/include/qt5/QtWidgets/QGraphicsItem /usr/include/qt5/QtCore/QObject \
+ /usr/include/qt5/QtCore/qobject.h \
+ /home/mr-geri/Проекты/c/two_course/coursework/figures/rhomb/rhomb.h \
+ /home/mr-geri/Проекты/c/two_course/coursework/myGraphicScene/myGraphicScene.h \
  /usr/include/qt5/QtWidgets/QGraphicsScene \
  /usr/include/qt5/QtWidgets/qgraphicsscene.h \
  /usr/include/qt5/QtGui/qbrush.h /usr/include/qt5/QtGui/qfont.h \
@@ -254,5 +256,4 @@ CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.o: \
  /home/mr-geri/Проекты/c/two_course/coursework/randomPoints/randomPoints.h \
  /usr/include/qt5/QtCore/QPoint /usr/include/qt5/QtCore/qpoint.h \
  /home/mr-geri/Проекты/c/two_course/coursework/constants.h \
- /usr/include/qt5/QtCore/QVector /usr/include/qt5/QtCore/qvector.h \
- /home/mr-geri/Проекты/c/two_course/coursework/figures/rhomb/rhomb.h
+ /usr/include/qt5/QtCore/QVector /usr/include/qt5/QtCore/qvector.h

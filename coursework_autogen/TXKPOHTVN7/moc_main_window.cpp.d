@@ -1,4 +1,4 @@
-/home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/TXKPOHTVN7/moc_main_window.cpp: /home/mr-geri/Проекты/c/two_course/coursework/main_window/main_window.h \
+/home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/TXKPOHTVN7/moc_main_window.cpp: /home/mr-geri/projects/c/two_course/coursework/main_window/main_window.h \
   /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/moc_predefs.h \
   /home/mr-geri/Проекты/c/two_course/coursework/constants.h \
   /home/mr-geri/Проекты/c/two_course/coursework/figures/figure/figure.h \

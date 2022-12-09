@@ -1,25 +1,17 @@
 #pragma once
 
-#include <QCursor>
+#include "figures/figure/figure.h"
 #include <QGraphicsItem>
-#include <QGraphicsSceneMouseEvent>
 #include <QObject>
-#include <QPainter>
 
-class Rectangle : public QObject, public QGraphicsItem {
+class Rectangle : public Figure {
   Q_OBJECT
+
 public:
-  explicit Rectangle(QObject *parent = 0);
+  explicit Rectangle(QPointF point, QObject *parent = 0);
   ~Rectangle();
 
-signals:
-
 private:
-  QRectF boundingRect() const;
-  void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget);
-  void mouseMoveEvent(QGraphicsSceneMouseEvent *event);
-  void mousePressEvent(QGraphicsSceneMouseEvent *event);
-  void mouseReleaseEvent(QGraphicsSceneMouseEvent *event);
-
-public slots:
+  void paint(QPainter *painter, const QStyleOptionGraphicsItem *option,
+             QWidget *widget);
 };

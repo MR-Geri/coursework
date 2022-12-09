@@ -1,7 +1,7 @@
 CMakeFiles/coursework.dir/randomPoints/randomPoints.cpp.o: \
- /home/mr-geri/Проекты/c/two_course/coursework/randomPoints/randomPoints.cpp \
+ /home/mr-geri/projects/c/two_course/coursework/randomPoints/randomPoints.cpp \
  /usr/include/stdc-predef.h \
- /home/mr-geri/Проекты/c/two_course/coursework/randomPoints/randomPoints.h \
+ /home/mr-geri/projects/c/two_course/coursework/randomPoints/randomPoints.h \
  /usr/include/qt5/QtCore/QPoint /usr/include/qt5/QtCore/qpoint.h \
  /usr/include/qt5/QtCore/qnamespace.h /usr/include/qt5/QtCore/qglobal.h \
  /usr/include/c++/12/type_traits \

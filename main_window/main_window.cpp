@@ -7,7 +7,7 @@
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::MainWindow) {
   ui->setupUi(this);
-  connect(this, SIGNAL(changeItem(Items)), ui->graphicsView, SLOT(setActiveItem(Items)));
+  connect(this, SIGNAL(changeItem(constants::Items)), ui->graphicsView, SLOT(setActiveItem(constants::Items)));
 
   connect(ui->buttonRhomb, SIGNAL(clicked()), this, SLOT(clickedRhomb()));
   connect(ui->buttonRectangle, SIGNAL(clicked()), this, SLOT(clickedRectangle()));

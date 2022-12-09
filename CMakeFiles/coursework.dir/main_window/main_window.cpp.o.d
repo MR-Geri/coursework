@@ -1,7 +1,7 @@
 CMakeFiles/coursework.dir/main_window/main_window.cpp.o: \
- /home/mr-geri/Проекты/c/two_course/coursework/main_window/main_window.cpp \
+ /home/mr-geri/projects/c/two_course/coursework/main_window/main_window.cpp \
  /usr/include/stdc-predef.h \
- /home/mr-geri/Проекты/c/two_course/coursework/main_window/main_window.h \
+ /home/mr-geri/projects/c/two_course/coursework/main_window/main_window.h \
  /usr/include/qt5/QtWidgets/QMainWindow \
  /usr/include/qt5/QtWidgets/qmainwindow.h \
  /usr/include/qt5/QtWidgets/qtwidgetsglobal.h \
@@ -252,11 +252,12 @@ CMakeFiles/coursework.dir/main_window/main_window.cpp.o: \
  /usr/include/qt5/QtWidgets/qwidget.h \
  /home/mr-geri/Проекты/c/two_course/coursework/myGraphicScene/myGraphicScene.h \
  /home/mr-geri/Проекты/c/two_course/coursework/figures/figure/figure.h \
- /usr/include/qt5/QtCore/QObject /usr/include/qt5/QtCore/qobject.h \
- /usr/include/qt5/QtWidgets/QGraphicsItem /usr/include/qt5/QtCore/QDebug \
- /usr/include/qt5/QtCore/qdebug.h /usr/include/qt5/QtCore/qtextstream.h \
- /usr/include/qt5/QtCore/qlocale.h /usr/include/qt5/QtCore/qset.h \
+ /usr/include/qt5/QtCore/QDebug /usr/include/qt5/QtCore/qdebug.h \
+ /usr/include/qt5/QtCore/qtextstream.h /usr/include/qt5/QtCore/qlocale.h \
+ /usr/include/qt5/QtCore/qset.h \
  /usr/include/qt5/QtCore/qcontiguouscache.h \
+ /usr/include/qt5/QtWidgets/QGraphicsItem /usr/include/qt5/QtCore/QObject \
+ /usr/include/qt5/QtCore/qobject.h \
  /home/mr-geri/Проекты/c/two_course/coursework/randomPoints/randomPoints.h \
  /usr/include/qt5/QtCore/QPoint /usr/include/qt5/QtCore/qpoint.h \
  /usr/include/qt5/QtWidgets/qgraphicsitem.h \

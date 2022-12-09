@@ -20,6 +20,7 @@ file(GLOB coursework_src CONFIGURE_DEPENDS
   "resource.qrc"
   "*.cpp" "*.h" "*.ui"
   "*/*.cpp" "*/*.h" "*/*.ui"
+  "*/*/*.cpp" "*/*/*.h" "*/*/*.ui"
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

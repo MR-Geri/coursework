@@ -4,7 +4,7 @@
 # compile CXX with /usr/lib64/ccache/c++
 CXX_DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_TESTCASE_BUILDDIR=\"/home/mr-geri/Проекты/c/two_course/coursework\" -DQT_TESTLIB_LIB -DQT_WIDGETS_LIB
 
-CXX_INCLUDES = -I/home/mr-geri/Проекты/c/two_course/coursework -I/home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/include -isystem /usr/include/qt5 -isystem /usr/include/qt5/QtWidgets -isystem /usr/include/qt5/QtGui -isystem /usr/include/qt5/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/qt5/QtTest
+CXX_INCLUDES = -I/home/mr-geri/Проекты/c/two_course/coursework -I/home/mr-geri/projects/c/two_course/coursework -I/home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/include -isystem /usr/include/qt5 -isystem /usr/include/qt5/QtWidgets -isystem /usr/include/qt5/QtGui -isystem /usr/include/qt5/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/qt5/QtTest
 
 CXX_FLAGS = -g -O0 -fPIC -std=gnu++17
 

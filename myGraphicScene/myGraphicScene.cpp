@@ -3,8 +3,9 @@
 #include <QKeyEvent>
 #include <iostream>
 
-#include <myGraphicScene/myGraphicScene.h>
+#include "figures/rectangle/rectangle.h"
 #include "figures/rhomb/rhomb.h"
+#include <myGraphicScene/myGraphicScene.h>
 
 myGraphicsScene::myGraphicsScene(QObject *parent)
     : QGraphicsScene(parent), m_activeItem(nullptr) {
@@ -24,14 +25,10 @@ void myGraphicsScene::mousePressEvent(QGraphicsSceneMouseEvent *event) {
 
   switch (currentItem) {
   case constants::Rhomb:
-    // m_activeItem = new QGraphicsEllipseItem(-indent, -indent, indent * 2, indent * 2);
-    // static_cast<QGraphicsEllipseItem *>(m_activeItem)->setBrush(color);
     m_activeItem = new Rhomb(event->scenePos());
-    m_activeItem->setPos(event->pos());
     break;
   case constants::Rectangle:
-    // m_activeItem = new Rectangle(-indent, -indent, indent * 2, indent * 2);
-    // static_cast<QGraphicsEllipseItem *>(m_activeItem)->setBrush(color);
+    m_activeItem = new Rectangle(event->scenePos());
     break;
   case constants::RectangleOval:
     break;
@@ -45,20 +42,21 @@ void myGraphicsScene::mousePressEvent(QGraphicsSceneMouseEvent *event) {
     break;
   }
 
-  if (nullptr == m_activeItem) return;
+  if (nullptr == m_activeItem)
+    return;
 
   addItem(m_activeItem);
-  // m_activeItem->setPos(pos);
 }
 
 void myGraphicsScene::mouseMoveEvent(QGraphicsSceneMouseEvent *event) {
   QGraphicsScene::mouseMoveEvent(event);
 
+  m_activeItem->setEndPoint(event->scenePos());
+  this->update(QRectF(0, 0, this->width(), this->height()));
 }
 
 void myGraphicsScene::mouseReleaseEvent(QGraphicsSceneMouseEvent *event) {
   QGraphicsScene::mouseReleaseEvent(event);
-
 }
 
 void myGraphicsScene::keyPressEvent(QKeyEvent *event) {
