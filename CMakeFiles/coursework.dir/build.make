@@ -80,7 +80,7 @@ coursework_autogen/EWIEGA46WW/qrc_resource.cpp: icons/rectangle.png
 coursework_autogen/EWIEGA46WW/qrc_resource.cpp: icons/arrow.png
 coursework_autogen/EWIEGA46WW/qrc_resource.cpp: /usr/lib64/qt5/bin/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for resource.qrc"
-	/usr/bin/cmake -E cmake_autorcc /home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles/coursework_autogen.dir/AutoRcc_resource_EWIEGA46WW_Info.json 
+	/usr/bin/cmake -E cmake_autorcc /home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles/coursework_autogen.dir/AutoRcc_resource_EWIEGA46WW_Info.json Debug
 
 CMakeFiles/coursework.dir/coursework_autogen/mocs_compilation.cpp.o: CMakeFiles/coursework.dir/flags.make
 CMakeFiles/coursework.dir/coursework_autogen/mocs_compilation.cpp.o: coursework_autogen/mocs_compilation.cpp

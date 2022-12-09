@@ -7,7 +7,7 @@
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::MainWindow) {
   ui->setupUi(this);
-  connect(this, SIGNAL(changeItem(Items)), &graphView, SLOT(setActiveItem(Items)));
+  connect(this, SIGNAL(changeItem(Items)), ui->graphicsView, SLOT(setActiveItem(Items)));
 
   connect(ui->buttonRhomb, SIGNAL(clicked()), this, SLOT(clickedRhomb()));
   connect(ui->buttonRectangle, SIGNAL(clicked()), this, SLOT(clickedRectangle()));
@@ -20,17 +20,17 @@ MainWindow::MainWindow(QWidget *parent)
 
 MainWindow::~MainWindow() { delete ui; }
 
-void MainWindow::clickedRhomb(){ emit changeItem(Rhomb); }
+void MainWindow::clickedRhomb(){ emit changeItem(constants::Rhomb); }
 
-void MainWindow::clickedRectangle(){ emit changeItem(Rectangle); }
+void MainWindow::clickedRectangle(){ emit changeItem(constants::Rectangle); }
 
-void MainWindow::clickedRectangleOval(){ emit changeItem(RectangleOval); }
+void MainWindow::clickedRectangleOval(){ emit changeItem(constants::RectangleOval); }
 
-void MainWindow::clickedParallelepiped(){ emit changeItem(Parallelepiped); }
+void MainWindow::clickedParallelepiped(){ emit changeItem(constants::Parallelepiped); }
 
-void MainWindow::clickedHexagon(){ emit changeItem(Hexagon); }
+void MainWindow::clickedHexagon(){ emit changeItem(constants::Hexagon); }
 
-void MainWindow::clickedLine(){ emit changeItem(Line); }
+void MainWindow::clickedLine(){ emit changeItem(constants::Line); }
 
-void MainWindow::clickedArrow(){ emit changeItem(Arrow); }
+void MainWindow::clickedArrow(){ emit changeItem(constants::Arrow); }
 

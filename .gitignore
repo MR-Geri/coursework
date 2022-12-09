@@ -1,0 +1,7 @@
+./.cache/
+./.cmake/
+./.qtc_clangd/
+./CMakeFiles/
+./coursework_autogen/
+CMakeCache.txt
+*.user

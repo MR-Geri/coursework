@@ -4,51 +4,61 @@
 #include <iostream>
 
 #include <myGraphicScene/myGraphicScene.h>
+#include "figures/rhomb/rhomb.h"
 
 myGraphicsScene::myGraphicsScene(QObject *parent)
     : QGraphicsScene(parent), m_activeItem(nullptr) {
-  currentItem = Items::Hexagon;
+  currentItem = constants::Items::Hexagon;
 }
 
 void myGraphicsScene::mousePressEvent(QGraphicsSceneMouseEvent *event) {
   QGraphicsScene::mousePressEvent(event);
 
   int type = getBetween(1, 3);
-  int radius = getBetween(10, 50);
+  int indent = getBetween(10, 50);
   QPointF pos = event->scenePos();
 
   QColor color(getBetween(0, 255), getBetween(0, 255), getBetween(0, 255));
 
   m_activeItem = nullptr;
-  std::cout << currentItem << "\n";
 
-
-  // switch (currentItem) {
-  // case Rhomb:
-  //   // m_activeItem = new QGraphicsEllipseItem(-radius, -radius, radius * 2, radius * 2);
-  //   // static_cast<QGraphicsEllipseItem *>(m_activeItem)->setBrush(color);
-  //   std::cout << "Rhomb\n";
-  //   break;
-  // case Rectangle:
-  //   // m_activeItem = new QGraphicsRectItem(-radius, -radius, radius * 2, radius * 2);
-  //   // static_cast<QGraphicsEllipseItem *>(m_activeItem)->setBrush(color);
-  //   break;
-  // case RectangleOval:
-  //   break;
-  // case Parallelepiped:
-  //   break;
-  // case Hexagon:
-  //   break;
-  // case Line:
-  //   break;
-  // case Arrow:
-  //   break;
-  // }
+  switch (currentItem) {
+  case constants::Rhomb:
+    // m_activeItem = new QGraphicsEllipseItem(-indent, -indent, indent * 2, indent * 2);
+    // static_cast<QGraphicsEllipseItem *>(m_activeItem)->setBrush(color);
+    m_activeItem = new Rhomb(event->scenePos());
+    m_activeItem->setPos(event->pos());
+    break;
+  case constants::Rectangle:
+    // m_activeItem = new Rectangle(-indent, -indent, indent * 2, indent * 2);
+    // static_cast<QGraphicsEllipseItem *>(m_activeItem)->setBrush(color);
+    break;
+  case constants::RectangleOval:
+    break;
+  case constants::Parallelepiped:
+    break;
+  case constants::Hexagon:
+    break;
+  case constants::Line:
+    break;
+  case constants::Arrow:
+    break;
+  }
 
   if (nullptr == m_activeItem) return;
 
   addItem(m_activeItem);
-  m_activeItem->setPos(pos);
+  // m_activeItem->setPos(pos);
+}
+
+void myGraphicsScene::mouseMoveEvent(QGraphicsSceneMouseEvent *event) {
+  QGraphicsScene::mouseMoveEvent(event);
+
+}
+
+void myGraphicsScene::mouseReleaseEvent(QGraphicsSceneMouseEvent *event) {
+  QGraphicsScene::mouseReleaseEvent(event);
+
 }
 
 void myGraphicsScene::keyPressEvent(QKeyEvent *event) {
@@ -73,7 +83,6 @@ void myGraphicsScene::keyPressEvent(QKeyEvent *event) {
   }
 }
 
-void myGraphicsScene::setActiveItem(Items item) {
+void myGraphicsScene::setActiveItem(constants::Items item) {
   currentItem = item;
-  std::cout << "!" << item << "\n";
 }

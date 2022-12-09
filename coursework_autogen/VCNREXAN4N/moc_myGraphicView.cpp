@@ -23,7 +23,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_MyGraphicView_t {
     QByteArrayData data[6];
-    char stringdata0[55];
+    char stringdata0[66];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -36,12 +36,12 @@ QT_MOC_LITERAL(0, 0, 13), // "MyGraphicView"
 QT_MOC_LITERAL(1, 14, 14), // "slotAlarmTimer"
 QT_MOC_LITERAL(2, 29, 0), // ""
 QT_MOC_LITERAL(3, 30, 13), // "setActiveItem"
-QT_MOC_LITERAL(4, 44, 5), // "Items"
-QT_MOC_LITERAL(5, 50, 4) // "item"
+QT_MOC_LITERAL(4, 44, 16), // "constants::Items"
+QT_MOC_LITERAL(5, 61, 4) // "item"
 
     },
     "MyGraphicView\0slotAlarmTimer\0\0"
-    "setActiveItem\0Items\0item"
+    "setActiveItem\0constants::Items\0item"
 };
 #undef QT_MOC_LITERAL
 
@@ -76,7 +76,7 @@ void MyGraphicView::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
         (void)_t;
         switch (_id) {
         case 0: _t->slotAlarmTimer(); break;
-        case 1: _t->setActiveItem((*reinterpret_cast< Items(*)>(_a[1]))); break;
+        case 1: _t->setActiveItem((*reinterpret_cast< constants::Items(*)>(_a[1]))); break;
         default: ;
         }
     }

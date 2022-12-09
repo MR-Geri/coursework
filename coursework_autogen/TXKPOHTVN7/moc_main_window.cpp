@@ -23,7 +23,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_MainWindow_t {
     QByteArrayData data[12];
-    char stringdata0[147];
+    char stringdata0[158];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -35,19 +35,19 @@ static const qt_meta_stringdata_MainWindow_t qt_meta_stringdata_MainWindow = {
 QT_MOC_LITERAL(0, 0, 10), // "MainWindow"
 QT_MOC_LITERAL(1, 11, 10), // "changeItem"
 QT_MOC_LITERAL(2, 22, 0), // ""
-QT_MOC_LITERAL(3, 23, 5), // "Items"
-QT_MOC_LITERAL(4, 29, 4), // "item"
-QT_MOC_LITERAL(5, 34, 12), // "clickedRhomb"
-QT_MOC_LITERAL(6, 47, 16), // "clickedRectangle"
-QT_MOC_LITERAL(7, 64, 20), // "clickedRectangleOval"
-QT_MOC_LITERAL(8, 85, 21), // "clickedParallelepiped"
-QT_MOC_LITERAL(9, 107, 14), // "clickedHexagon"
-QT_MOC_LITERAL(10, 122, 11), // "clickedLine"
-QT_MOC_LITERAL(11, 134, 12) // "clickedArrow"
+QT_MOC_LITERAL(3, 23, 16), // "constants::Items"
+QT_MOC_LITERAL(4, 40, 4), // "item"
+QT_MOC_LITERAL(5, 45, 12), // "clickedRhomb"
+QT_MOC_LITERAL(6, 58, 16), // "clickedRectangle"
+QT_MOC_LITERAL(7, 75, 20), // "clickedRectangleOval"
+QT_MOC_LITERAL(8, 96, 21), // "clickedParallelepiped"
+QT_MOC_LITERAL(9, 118, 14), // "clickedHexagon"
+QT_MOC_LITERAL(10, 133, 11), // "clickedLine"
+QT_MOC_LITERAL(11, 145, 12) // "clickedArrow"
 
     },
-    "MainWindow\0changeItem\0\0Items\0item\0"
-    "clickedRhomb\0clickedRectangle\0"
+    "MainWindow\0changeItem\0\0constants::Items\0"
+    "item\0clickedRhomb\0clickedRectangle\0"
     "clickedRectangleOval\0clickedParallelepiped\0"
     "clickedHexagon\0clickedLine\0clickedArrow"
 };
@@ -99,7 +99,7 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         auto *_t = static_cast<MainWindow *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: _t->changeItem((*reinterpret_cast< Items(*)>(_a[1]))); break;
+        case 0: _t->changeItem((*reinterpret_cast< constants::Items(*)>(_a[1]))); break;
         case 1: _t->clickedRhomb(); break;
         case 2: _t->clickedRectangle(); break;
         case 3: _t->clickedRectangleOval(); break;
@@ -112,7 +112,7 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
-            using _t = void (MainWindow::*)(Items );
+            using _t = void (MainWindow::*)(constants::Items );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&MainWindow::changeItem)) {
                 *result = 0;
                 return;
@@ -162,7 +162,7 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 }
 
 // SIGNAL 0
-void MainWindow::changeItem(Items _t1)
+void MainWindow::changeItem(constants::Items _t1)
 {
     void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
     QMetaObject::activate(this, &staticMetaObject, 0, _a);

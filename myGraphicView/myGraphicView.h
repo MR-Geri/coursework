@@ -44,5 +44,5 @@ private:
   void deleteItemsFromGroup(QGraphicsItemGroup *group_1);
 
 public slots:
-  void setActiveItem(Items item);
+  void setActiveItem(constants::Items item);
 };

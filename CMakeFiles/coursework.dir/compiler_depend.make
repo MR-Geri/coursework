@@ -1520,7 +1520,17 @@ CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.o: myGraphicScene/my
   /usr/include/qt5/QtCore/qpoint.h \
   constants.h \
   /usr/include/qt5/QtCore/QVector \
-  /usr/include/qt5/QtCore/qvector.h
+  /usr/include/qt5/QtCore/qvector.h \
+  figures/rhomb/rhomb.h \
+  figures/figure/figure.h \
+  /usr/include/qt5/QtCore/QObject \
+  /usr/include/qt5/QtCore/qobject.h \
+  /usr/include/qt5/QtWidgets/QGraphicsItem \
+  /usr/include/qt5/QtCore/QDebug \
+  /usr/include/qt5/QtCore/qdebug.h \
+  /usr/include/qt5/QtCore/qtextstream.h \
+  /usr/include/qt5/QtCore/qlocale.h \
+  /usr/include/qt5/QtCore/qcontiguouscache.h
 
 CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.o: myGraphicView/myGraphicView.cpp \
   /usr/include/stdc-predef.h \
@@ -1998,6 +2008,8 @@ CMakeFiles/coursework.dir/randomPoints/randomPoints.cpp.o: randomPoints/randomPo
   /usr/include/qt5/QtCore/qversiontagging.h
 
 
+figures/figure/figure.h:
+
 /usr/include/qt5/QtGui/qvector2d.h:
 
 /usr/include/qt5/QtGui/qevent.h:
@@ -2120,6 +2132,8 @@ coursework_autogen/VCNREXAN4N/moc_myGraphicView.cpp:
 
 /usr/include/qt5/QtGui/qbrush.h:
 
+figures/rhomb/rhomb.h:
+
 /usr/include/qt5/QtCore/qcoreapplication.h:
 
 /usr/include/qt5/QtGui/qpalette.h:
@@ -2129,6 +2143,8 @@ coursework_autogen/VCNREXAN4N/moc_myGraphicView.cpp:
 /usr/include/qt5/QtGui/qfontinfo.h:
 
 /usr/include/qt5/QtCore/qsize.h:
+
+/usr/include/qt5/QtCore/qcontiguouscache.h:
 
 /usr/include/qt5/QtCore/qrect.h:
 
@@ -2370,6 +2386,8 @@ myGraphicScene/myGraphicScene.cpp:
 
 /usr/include/c++/12/stdexcept:
 
+/usr/include/qt5/QtWidgets/QGraphicsItem:
+
 /usr/include/bits/pthreadtypes.h:
 
 /usr/include/bits/pthreadtypes-arch.h:
@@ -2449,6 +2467,8 @@ myGraphicView/myGraphicView.h:
 /usr/include/limits.h:
 
 /usr/include/c++/12/bits/alloc_traits.h:
+
+/usr/include/qt5/QtCore/QObject:
 
 /usr/include/bits/types/wint_t.h:
 
@@ -2599,6 +2619,8 @@ coursework_autogen/TXKPOHTVN7/moc_main_window.cpp:
 /usr/include/qt5/QtCore/qshareddata.h:
 
 coursework_autogen/EWIEGA46WW/qrc_resource.cpp:
+
+/usr/include/qt5/QtCore/qdebug.h:
 
 /usr/include/c++/12/bits/atomic_lockfree_defines.h:
 
@@ -2760,6 +2782,8 @@ main_window/main_window.h:
 
 /usr/include/qt5/QtCore/qstringalgorithms.h:
 
+/usr/include/qt5/QtCore/qtextstream.h:
+
 /usr/include/bits/locale.h:
 
 randomPoints/randomPoints.cpp:
@@ -2777,6 +2801,8 @@ randomPoints/randomPoints.cpp:
 /usr/include/c++/12/cstdio:
 
 /usr/include/bits/types/struct_FILE.h:
+
+/usr/include/qt5/QtCore/QDebug:
 
 /usr/include/bits/types/cookie_io_functions_t.h:
 

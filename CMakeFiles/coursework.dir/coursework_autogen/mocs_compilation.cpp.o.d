@@ -249,6 +249,12 @@ CMakeFiles/coursework.dir/coursework_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt5/QtCore/qbasictimer.h /usr/include/qt5/QtWidgets/QWidget \
  /usr/include/qt5/QtWidgets/qwidget.h \
  /home/mr-geri/Проекты/c/two_course/coursework/myGraphicScene/myGraphicScene.h \
+ /home/mr-geri/Проекты/c/two_course/coursework/figures/figure/figure.h \
+ /usr/include/qt5/QtCore/QObject /usr/include/qt5/QtCore/qobject.h \
+ /usr/include/qt5/QtWidgets/QGraphicsItem /usr/include/qt5/QtCore/QDebug \
+ /usr/include/qt5/QtCore/qdebug.h /usr/include/qt5/QtCore/qtextstream.h \
+ /usr/include/qt5/QtCore/qlocale.h /usr/include/qt5/QtCore/qset.h \
+ /usr/include/qt5/QtCore/qcontiguouscache.h \
  /home/mr-geri/Проекты/c/two_course/coursework/randomPoints/randomPoints.h \
  /usr/include/qt5/QtCore/QPoint /usr/include/qt5/QtCore/qpoint.h \
  /usr/include/qt5/QtWidgets/qgraphicsitem.h \

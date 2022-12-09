@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-d875987018235adb4b0a.json",
+					"jsonFile" : "directory-.-Debug-d875987018235adb4b0a.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
@@ -21,7 +21,7 @@
 					]
 				}
 			],
-			"name" : "",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -42,14 +42,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "coursework::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-coursework-01322c33a6ba765616d3.json",
+					"jsonFile" : "target-coursework-Debug-10ab769357cea8dc0236.json",
 					"name" : "coursework",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "coursework_autogen::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-coursework_autogen-475d0cc1c8fc69ef45db.json",
+					"jsonFile" : "target-coursework_autogen-Debug-475d0cc1c8fc69ef45db.json",
 					"name" : "coursework_autogen",
 					"projectIndex" : 0
 				}

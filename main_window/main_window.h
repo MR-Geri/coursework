@@ -23,7 +23,7 @@ public:
 
 private:
   Ui::MainWindow *ui;
-  MyGraphicView graphView;
+  // MyGraphicView graphView;
 
 private slots:
   void clickedRhomb();
@@ -35,5 +35,5 @@ private slots:
   void clickedArrow();
 
 signals:
-  void changeItem(Items item);
+  void changeItem(constants::Items item);
 };

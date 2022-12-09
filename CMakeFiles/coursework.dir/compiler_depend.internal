@@ -1526,6 +1526,16 @@ CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.o
  /home/mr-geri/Проекты/c/two_course/coursework/constants.h
  /usr/include/qt5/QtCore/QVector
  /usr/include/qt5/QtCore/qvector.h
+ /home/mr-geri/Проекты/c/two_course/coursework/figures/rhomb/rhomb.h
+ /home/mr-geri/Проекты/c/two_course/coursework/figures/figure/figure.h
+ /usr/include/qt5/QtCore/QObject
+ /usr/include/qt5/QtCore/qobject.h
+ /usr/include/qt5/QtWidgets/QGraphicsItem
+ /usr/include/qt5/QtCore/QDebug
+ /usr/include/qt5/QtCore/qdebug.h
+ /usr/include/qt5/QtCore/qtextstream.h
+ /usr/include/qt5/QtCore/qlocale.h
+ /usr/include/qt5/QtCore/qcontiguouscache.h
 
 CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.o
  /home/mr-geri/Проекты/c/two_course/coursework/myGraphicView/myGraphicView.cpp

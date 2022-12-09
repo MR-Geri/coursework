@@ -118,7 +118,6 @@
 	[
 		"QT_CORE_LIB",
 		"QT_GUI_LIB",
-		"QT_NO_DEBUG",
 		"QT_TESTCASE_BUILDDIR=\"/home/mr-geri/\u041f\u0440\u043e\u0435\u043a\u0442\u044b/c/two_course/coursework\"",
 		"QT_TESTLIB_LIB",
 		"QT_WIDGETS_LIB"

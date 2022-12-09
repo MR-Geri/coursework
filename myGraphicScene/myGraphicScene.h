@@ -1,5 +1,6 @@
 #pragma once
 
+#include "figures/figure/figure.h"
 #include <QGraphicsScene>
 #include <randomPoints/randomPoints.h>
 #include <constants.h>
@@ -8,15 +9,16 @@ class myGraphicsScene : public QGraphicsScene {
   Q_OBJECT
 public:
   explicit myGraphicsScene(QObject *parent = nullptr);
-  void setActiveItem(Items item);
+  void setActiveItem(constants::Items item);
 
 protected:
   void mousePressEvent(QGraphicsSceneMouseEvent *event) override;
+  void mouseReleaseEvent(QGraphicsSceneMouseEvent *event) override;
+  void mouseMoveEvent(QGraphicsSceneMouseEvent *event) override;
   void keyPressEvent(QKeyEvent *event) override;
 
-  QGraphicsItem *m_activeItem;
+  Figure *m_activeItem;
 
 private:
-  Items currentItem;
-  int TcurrentItem;
+  constants::Items currentItem;
 };

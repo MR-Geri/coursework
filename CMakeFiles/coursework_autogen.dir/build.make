@@ -68,7 +68,7 @@ include CMakeFiles/coursework_autogen.dir/progress.make
 
 CMakeFiles/coursework_autogen:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target coursework"
-	/usr/bin/cmake -E cmake_autogen /home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles/coursework_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E cmake_autogen /home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles/coursework_autogen.dir/AutogenInfo.json Debug
 
 coursework_autogen: CMakeFiles/coursework_autogen
 coursework_autogen: CMakeFiles/coursework_autogen.dir/build.make

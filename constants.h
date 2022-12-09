@@ -1,6 +1,7 @@
 #pragma once
 #include <QVector>
 
+namespace constants {
 enum Items {
   Rhomb,
   Rectangle,
@@ -10,3 +11,4 @@ enum Items {
   Line,
   Arrow
 };
+}

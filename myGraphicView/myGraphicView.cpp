@@ -117,6 +117,6 @@ void MyGraphicView::deleteItemsFromGroup(QGraphicsItemGroup *group) {
   }
 }
 
-void MyGraphicView::setActiveItem(Items item){
+void MyGraphicView::setActiveItem(constants::Items item){
   scene->setActiveItem(item);
 }
