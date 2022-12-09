@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/parallelepiped.png</file>
+        <file>icons/rectangle.png</file>
+        <file>icons/rectangle_oval.png</file>
+        <file>icons/rhomb.png</file>
+        <file>icons/hexagon.png</file>
+        <file>icons/line.png</file>
+        <file>icons/arrow.png</file>
+    </qresource>
+</RCC>

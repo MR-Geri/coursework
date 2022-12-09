@@ -1,0 +1,8 @@
+/home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles/coursework.dir
+/home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles/edit_cache.dir
+/home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles/rebuild_cache.dir
+/home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles/list_install_components.dir
+/home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles/install.dir
+/home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles/install/local.dir
+/home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles/install/strip.dir
+/home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles/coursework_autogen.dir
