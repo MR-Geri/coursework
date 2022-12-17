@@ -1,4 +1,4 @@
-# Install script for directory: /home/mr-geri/projects/c/two_course/coursework
+# Install script for directory: /home/mr-geri/Проекты/c/two_course/coursework
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

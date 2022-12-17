@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mr-geri/projects/c/two_course/coursework
+CMAKE_SOURCE_DIR = /home/mr-geri/Проекты/c/two_course/coursework
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/mr-geri/Проекты/c/two_course/coursework
@@ -236,6 +236,30 @@ coursework_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/coursework_autogen/mocs_compilation.cpp.s
 .PHONY : coursework_autogen/mocs_compilation.cpp.s
 
+figures/arrow/arrow.o: figures/arrow/arrow.cpp.o
+.PHONY : figures/arrow/arrow.o
+
+# target to build an object file
+figures/arrow/arrow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/figures/arrow/arrow.cpp.o
+.PHONY : figures/arrow/arrow.cpp.o
+
+figures/arrow/arrow.i: figures/arrow/arrow.cpp.i
+.PHONY : figures/arrow/arrow.i
+
+# target to preprocess a source file
+figures/arrow/arrow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/figures/arrow/arrow.cpp.i
+.PHONY : figures/arrow/arrow.cpp.i
+
+figures/arrow/arrow.s: figures/arrow/arrow.cpp.s
+.PHONY : figures/arrow/arrow.s
+
+# target to generate assembly for a file
+figures/arrow/arrow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/figures/arrow/arrow.cpp.s
+.PHONY : figures/arrow/arrow.cpp.s
+
 figures/figure/figure.o: figures/figure/figure.cpp.o
 .PHONY : figures/figure/figure.o
 
@@ -260,29 +284,125 @@ figures/figure/figure.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/figures/figure/figure.cpp.s
 .PHONY : figures/figure/figure.cpp.s
 
-figures/rectangle/rectange.o: figures/rectangle/rectange.cpp.o
-.PHONY : figures/rectangle/rectange.o
+figures/hexagon/hexagon.o: figures/hexagon/hexagon.cpp.o
+.PHONY : figures/hexagon/hexagon.o
 
 # target to build an object file
-figures/rectangle/rectange.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/figures/rectangle/rectange.cpp.o
-.PHONY : figures/rectangle/rectange.cpp.o
+figures/hexagon/hexagon.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/figures/hexagon/hexagon.cpp.o
+.PHONY : figures/hexagon/hexagon.cpp.o
 
-figures/rectangle/rectange.i: figures/rectangle/rectange.cpp.i
-.PHONY : figures/rectangle/rectange.i
+figures/hexagon/hexagon.i: figures/hexagon/hexagon.cpp.i
+.PHONY : figures/hexagon/hexagon.i
 
 # target to preprocess a source file
-figures/rectangle/rectange.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/figures/rectangle/rectange.cpp.i
-.PHONY : figures/rectangle/rectange.cpp.i
+figures/hexagon/hexagon.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/figures/hexagon/hexagon.cpp.i
+.PHONY : figures/hexagon/hexagon.cpp.i
 
-figures/rectangle/rectange.s: figures/rectangle/rectange.cpp.s
-.PHONY : figures/rectangle/rectange.s
+figures/hexagon/hexagon.s: figures/hexagon/hexagon.cpp.s
+.PHONY : figures/hexagon/hexagon.s
 
 # target to generate assembly for a file
-figures/rectangle/rectange.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/figures/rectangle/rectange.cpp.s
-.PHONY : figures/rectangle/rectange.cpp.s
+figures/hexagon/hexagon.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/figures/hexagon/hexagon.cpp.s
+.PHONY : figures/hexagon/hexagon.cpp.s
+
+figures/line/line.o: figures/line/line.cpp.o
+.PHONY : figures/line/line.o
+
+# target to build an object file
+figures/line/line.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/figures/line/line.cpp.o
+.PHONY : figures/line/line.cpp.o
+
+figures/line/line.i: figures/line/line.cpp.i
+.PHONY : figures/line/line.i
+
+# target to preprocess a source file
+figures/line/line.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/figures/line/line.cpp.i
+.PHONY : figures/line/line.cpp.i
+
+figures/line/line.s: figures/line/line.cpp.s
+.PHONY : figures/line/line.s
+
+# target to generate assembly for a file
+figures/line/line.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/figures/line/line.cpp.s
+.PHONY : figures/line/line.cpp.s
+
+figures/parallelepiped/parallelepiped.o: figures/parallelepiped/parallelepiped.cpp.o
+.PHONY : figures/parallelepiped/parallelepiped.o
+
+# target to build an object file
+figures/parallelepiped/parallelepiped.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/figures/parallelepiped/parallelepiped.cpp.o
+.PHONY : figures/parallelepiped/parallelepiped.cpp.o
+
+figures/parallelepiped/parallelepiped.i: figures/parallelepiped/parallelepiped.cpp.i
+.PHONY : figures/parallelepiped/parallelepiped.i
+
+# target to preprocess a source file
+figures/parallelepiped/parallelepiped.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/figures/parallelepiped/parallelepiped.cpp.i
+.PHONY : figures/parallelepiped/parallelepiped.cpp.i
+
+figures/parallelepiped/parallelepiped.s: figures/parallelepiped/parallelepiped.cpp.s
+.PHONY : figures/parallelepiped/parallelepiped.s
+
+# target to generate assembly for a file
+figures/parallelepiped/parallelepiped.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/figures/parallelepiped/parallelepiped.cpp.s
+.PHONY : figures/parallelepiped/parallelepiped.cpp.s
+
+figures/rectangle/rectangle.o: figures/rectangle/rectangle.cpp.o
+.PHONY : figures/rectangle/rectangle.o
+
+# target to build an object file
+figures/rectangle/rectangle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/figures/rectangle/rectangle.cpp.o
+.PHONY : figures/rectangle/rectangle.cpp.o
+
+figures/rectangle/rectangle.i: figures/rectangle/rectangle.cpp.i
+.PHONY : figures/rectangle/rectangle.i
+
+# target to preprocess a source file
+figures/rectangle/rectangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/figures/rectangle/rectangle.cpp.i
+.PHONY : figures/rectangle/rectangle.cpp.i
+
+figures/rectangle/rectangle.s: figures/rectangle/rectangle.cpp.s
+.PHONY : figures/rectangle/rectangle.s
+
+# target to generate assembly for a file
+figures/rectangle/rectangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/figures/rectangle/rectangle.cpp.s
+.PHONY : figures/rectangle/rectangle.cpp.s
+
+figures/rectangleOval/rectangleOval.o: figures/rectangleOval/rectangleOval.cpp.o
+.PHONY : figures/rectangleOval/rectangleOval.o
+
+# target to build an object file
+figures/rectangleOval/rectangleOval.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/figures/rectangleOval/rectangleOval.cpp.o
+.PHONY : figures/rectangleOval/rectangleOval.cpp.o
+
+figures/rectangleOval/rectangleOval.i: figures/rectangleOval/rectangleOval.cpp.i
+.PHONY : figures/rectangleOval/rectangleOval.i
+
+# target to preprocess a source file
+figures/rectangleOval/rectangleOval.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/figures/rectangleOval/rectangleOval.cpp.i
+.PHONY : figures/rectangleOval/rectangleOval.cpp.i
+
+figures/rectangleOval/rectangleOval.s: figures/rectangleOval/rectangleOval.cpp.s
+.PHONY : figures/rectangleOval/rectangleOval.s
+
+# target to generate assembly for a file
+figures/rectangleOval/rectangleOval.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/figures/rectangleOval/rectangleOval.cpp.s
+.PHONY : figures/rectangleOval/rectangleOval.cpp.s
 
 figures/rhomb/rhomb.o: figures/rhomb/rhomb.cpp.o
 .PHONY : figures/rhomb/rhomb.o
@@ -428,6 +548,30 @@ randomPoints/randomPoints.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/randomPoints/randomPoints.cpp.s
 .PHONY : randomPoints/randomPoints.cpp.s
 
+text/text.o: text/text.cpp.o
+.PHONY : text/text.o
+
+# target to build an object file
+text/text.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/text/text.cpp.o
+.PHONY : text/text.cpp.o
+
+text/text.i: text/text.cpp.i
+.PHONY : text/text.i
+
+# target to preprocess a source file
+text/text.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/text/text.cpp.i
+.PHONY : text/text.cpp.i
+
+text/text.s: text/text.cpp.s
+.PHONY : text/text.s
+
+# target to generate assembly for a file
+text/text.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/text/text.cpp.s
+.PHONY : text/text.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -448,12 +592,27 @@ help:
 	@echo "... coursework_autogen/mocs_compilation.o"
 	@echo "... coursework_autogen/mocs_compilation.i"
 	@echo "... coursework_autogen/mocs_compilation.s"
+	@echo "... figures/arrow/arrow.o"
+	@echo "... figures/arrow/arrow.i"
+	@echo "... figures/arrow/arrow.s"
 	@echo "... figures/figure/figure.o"
 	@echo "... figures/figure/figure.i"
 	@echo "... figures/figure/figure.s"
-	@echo "... figures/rectangle/rectange.o"
-	@echo "... figures/rectangle/rectange.i"
-	@echo "... figures/rectangle/rectange.s"
+	@echo "... figures/hexagon/hexagon.o"
+	@echo "... figures/hexagon/hexagon.i"
+	@echo "... figures/hexagon/hexagon.s"
+	@echo "... figures/line/line.o"
+	@echo "... figures/line/line.i"
+	@echo "... figures/line/line.s"
+	@echo "... figures/parallelepiped/parallelepiped.o"
+	@echo "... figures/parallelepiped/parallelepiped.i"
+	@echo "... figures/parallelepiped/parallelepiped.s"
+	@echo "... figures/rectangle/rectangle.o"
+	@echo "... figures/rectangle/rectangle.i"
+	@echo "... figures/rectangle/rectangle.s"
+	@echo "... figures/rectangleOval/rectangleOval.o"
+	@echo "... figures/rectangleOval/rectangleOval.i"
+	@echo "... figures/rectangleOval/rectangleOval.s"
 	@echo "... figures/rhomb/rhomb.o"
 	@echo "... figures/rhomb/rhomb.i"
 	@echo "... figures/rhomb/rhomb.s"
@@ -472,6 +631,9 @@ help:
 	@echo "... randomPoints/randomPoints.o"
 	@echo "... randomPoints/randomPoints.i"
 	@echo "... randomPoints/randomPoints.s"
+	@echo "... text/text.o"
+	@echo "... text/text.i"
+	@echo "... text/text.s"
 .PHONY : help
 
 

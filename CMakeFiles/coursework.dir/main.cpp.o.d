@@ -1,5 +1,5 @@
 CMakeFiles/coursework.dir/main.cpp.o: \
- /home/mr-geri/projects/c/two_course/coursework/main.cpp \
+ /home/mr-geri/Проекты/c/two_course/coursework/main.cpp \
  /usr/include/stdc-predef.h \
  /home/mr-geri/Проекты/c/two_course/coursework/main_window/main_window.h \
  /usr/include/qt5/QtWidgets/QMainWindow \
@@ -256,15 +256,20 @@ CMakeFiles/coursework.dir/main.cpp.o: \
  /usr/include/qt5/QtCore/qtextstream.h /usr/include/qt5/QtCore/qlocale.h \
  /usr/include/qt5/QtCore/qset.h \
  /usr/include/qt5/QtCore/qcontiguouscache.h \
- /usr/include/qt5/QtWidgets/QGraphicsItem /usr/include/qt5/QtCore/QObject \
- /usr/include/qt5/QtCore/qobject.h \
- /home/mr-geri/Проекты/c/two_course/coursework/randomPoints/randomPoints.h \
- /usr/include/qt5/QtCore/QPoint /usr/include/qt5/QtCore/qpoint.h \
+ /usr/include/qt5/QtWidgets/QGraphicsItem \
+ /usr/include/qt5/QtWidgets/QGraphicsSceneMouseEvent \
+ /usr/include/qt5/QtWidgets/qgraphicssceneevent.h \
+ /usr/include/qt5/QtCore/qcoreevent.h /usr/include/qt5/QtCore/QObject \
+ /usr/include/qt5/QtCore/qobject.h /usr/include/qt5/QtGui/QPainter \
+ /usr/include/qt5/QtGui/qpainter.h /usr/include/qt5/QtGui/QCursor \
+ /usr/include/qt5/QtGui/qcursor.h \
  /usr/include/qt5/QtWidgets/qgraphicsitem.h \
+ /home/mr-geri/Проекты/c/two_course/coursework/text/text.h \
  /usr/include/qt5/QtWidgets/QApplication \
  /usr/include/qt5/QtWidgets/qapplication.h \
  /usr/include/qt5/QtCore/qcoreapplication.h \
- /usr/include/qt5/QtCore/qcoreevent.h \
  /usr/include/qt5/QtCore/qeventloop.h \
  /usr/include/qt5/QtGui/qguiapplication.h \
- /usr/include/qt5/QtGui/qinputmethod.h
+ /usr/include/qt5/QtGui/qinputmethod.h \
+ /home/mr-geri/Проекты/c/two_course/coursework/randomPoints/randomPoints.h \
+ /usr/include/qt5/QtCore/QPoint /usr/include/qt5/QtCore/qpoint.h

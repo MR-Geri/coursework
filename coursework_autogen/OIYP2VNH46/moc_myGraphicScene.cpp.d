@@ -1,8 +1,9 @@
-/home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/OIYP2VNH46/moc_myGraphicScene.cpp: /home/mr-geri/projects/c/two_course/coursework/myGraphicScene/myGraphicScene.h \
+/home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/OIYP2VNH46/moc_myGraphicScene.cpp: /home/mr-geri/Проекты/c/two_course/coursework/myGraphicScene/myGraphicScene.h \
   /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/moc_predefs.h \
   /home/mr-geri/Проекты/c/two_course/coursework/constants.h \
   /home/mr-geri/Проекты/c/two_course/coursework/figures/figure/figure.h \
   /home/mr-geri/Проекты/c/two_course/coursework/randomPoints/randomPoints.h \
+  /home/mr-geri/Проекты/c/two_course/coursework/text/text.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm/errno.h \
@@ -252,8 +253,11 @@
   /usr/include/qt5/QtCore/qcontainerfwd.h \
   /usr/include/qt5/QtCore/qcontainertools_impl.h \
   /usr/include/qt5/QtCore/qcontiguouscache.h \
+  /usr/include/qt5/QtCore/qcoreapplication.h \
+  /usr/include/qt5/QtCore/qcoreevent.h \
   /usr/include/qt5/QtCore/qdatastream.h \
   /usr/include/qt5/QtCore/qdebug.h \
+  /usr/include/qt5/QtCore/qeventloop.h \
   /usr/include/qt5/QtCore/qflags.h \
   /usr/include/qt5/QtCore/qgenericatomic.h \
   /usr/include/qt5/QtCore/qglobal.h \
@@ -302,13 +306,23 @@
   /usr/include/qt5/QtCore/qvarlengtharray.h \
   /usr/include/qt5/QtCore/qvector.h \
   /usr/include/qt5/QtCore/qversiontagging.h \
+  /usr/include/qt5/QtGui/QCursor \
+  /usr/include/qt5/QtGui/QPainter \
   /usr/include/qt5/QtGui/qbrush.h \
   /usr/include/qt5/QtGui/qcolor.h \
+  /usr/include/qt5/QtGui/qcursor.h \
   /usr/include/qt5/QtGui/qfont.h \
+  /usr/include/qt5/QtGui/qfontinfo.h \
+  /usr/include/qt5/QtGui/qfontmetrics.h \
+  /usr/include/qt5/QtGui/qguiapplication.h \
   /usr/include/qt5/QtGui/qimage.h \
+  /usr/include/qt5/QtGui/qinputmethod.h \
+  /usr/include/qt5/QtGui/qkeysequence.h \
   /usr/include/qt5/QtGui/qmatrix.h \
   /usr/include/qt5/QtGui/qpaintdevice.h \
+  /usr/include/qt5/QtGui/qpainter.h \
   /usr/include/qt5/QtGui/qpainterpath.h \
+  /usr/include/qt5/QtGui/qpalette.h \
   /usr/include/qt5/QtGui/qpen.h \
   /usr/include/qt5/QtGui/qpixelformat.h \
   /usr/include/qt5/QtGui/qpixmap.h \
@@ -316,16 +330,28 @@
   /usr/include/qt5/QtGui/qregion.h \
   /usr/include/qt5/QtGui/qrgb.h \
   /usr/include/qt5/QtGui/qrgba64.h \
+  /usr/include/qt5/QtGui/qtextoption.h \
   /usr/include/qt5/QtGui/qtgui-config.h \
   /usr/include/qt5/QtGui/qtguiglobal.h \
   /usr/include/qt5/QtGui/qtransform.h \
   /usr/include/qt5/QtGui/qwindowdefs.h \
+  /usr/include/qt5/QtWidgets/QApplication \
   /usr/include/qt5/QtWidgets/QGraphicsItem \
   /usr/include/qt5/QtWidgets/QGraphicsScene \
+  /usr/include/qt5/QtWidgets/QGraphicsSceneMouseEvent \
+  /usr/include/qt5/QtWidgets/QGraphicsView \
+  /usr/include/qt5/QtWidgets/qabstractscrollarea.h \
+  /usr/include/qt5/QtWidgets/qapplication.h \
+  /usr/include/qt5/QtWidgets/qframe.h \
   /usr/include/qt5/QtWidgets/qgraphicsitem.h \
   /usr/include/qt5/QtWidgets/qgraphicsscene.h \
+  /usr/include/qt5/QtWidgets/qgraphicssceneevent.h \
+  /usr/include/qt5/QtWidgets/qgraphicsview.h \
+  /usr/include/qt5/QtWidgets/qscrollarea.h \
+  /usr/include/qt5/QtWidgets/qsizepolicy.h \
   /usr/include/qt5/QtWidgets/qtwidgets-config.h \
   /usr/include/qt5/QtWidgets/qtwidgetsglobal.h \
+  /usr/include/qt5/QtWidgets/qwidget.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdio.h \

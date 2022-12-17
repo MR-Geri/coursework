@@ -1,7 +1,7 @@
 CMakeFiles/coursework.dir/coursework_autogen/mocs_compilation.cpp.o: \
  /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/PDH6BJJCOA/moc_figure.cpp \
+ /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/VCPGCEGKYD/moc_arrow.cpp \
  /usr/include/c++/12/memory /usr/include/c++/12/bits/stl_algobase.h \
  /usr/include/c++/12/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
@@ -95,7 +95,8 @@ CMakeFiles/coursework.dir/coursework_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/12/backward/auto_ptr.h \
  /usr/include/c++/12/pstl/glue_memory_defs.h \
  /usr/include/c++/12/pstl/execution_defs.h \
- /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/PDH6BJJCOA/../../../../../../projects/c/two_course/coursework/figures/figure/figure.h \
+ /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/VCPGCEGKYD/../../figures/arrow/arrow.h \
+ /home/mr-geri/Проекты/c/two_course/coursework/figures/figure/figure.h \
  /usr/include/qt5/QtCore/QDebug /usr/include/qt5/QtCore/qdebug.h \
  /usr/include/qt5/QtCore/qalgorithms.h /usr/include/qt5/QtCore/qglobal.h \
  /usr/include/c++/12/cstddef /usr/include/c++/12/utility \
@@ -225,43 +226,84 @@ CMakeFiles/coursework.dir/coursework_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt5/QtGui/qpaintdevice.h /usr/include/qt5/QtGui/qcolor.h \
  /usr/include/qt5/QtGui/qrgb.h /usr/include/qt5/QtGui/qrgba64.h \
  /usr/include/qt5/QtGui/qimage.h /usr/include/qt5/QtGui/qpixelformat.h \
- /usr/include/qt5/QtCore/QObject /usr/include/qt5/QtCore/qobject.h \
+ /usr/include/qt5/QtWidgets/QGraphicsSceneMouseEvent \
+ /usr/include/qt5/QtWidgets/qgraphicssceneevent.h \
+ /usr/include/qt5/QtCore/qcoreevent.h /usr/include/qt5/QtCore/QObject \
+ /usr/include/qt5/QtCore/qobject.h \
+ /usr/include/qt5/QtWidgets/QGraphicsScene \
+ /usr/include/qt5/QtWidgets/qgraphicsscene.h \
+ /usr/include/qt5/QtGui/qbrush.h /usr/include/qt5/QtGui/qfont.h \
+ /usr/include/qt5/QtGui/qpen.h /usr/include/qt5/QtGui/QPainter \
+ /usr/include/qt5/QtGui/qpainter.h /usr/include/qt5/QtGui/qtextoption.h \
+ /usr/include/qt5/QtGui/qfontinfo.h /usr/include/qt5/QtGui/qfontmetrics.h \
+ /usr/include/qt5/QtGui/QCursor /usr/include/qt5/QtGui/qcursor.h \
+ /usr/include/qt5/QtWidgets/qgraphicsitem.h \
+ /home/mr-geri/Проекты/c/two_course/coursework/text/text.h \
+ /usr/include/qt5/QtWidgets/QApplication \
+ /usr/include/qt5/QtWidgets/qapplication.h \
+ /usr/include/qt5/QtCore/qcoreapplication.h \
+ /usr/include/qt5/QtCore/qeventloop.h /usr/include/qt5/QtGui/qcursor.h \
+ /usr/include/qt5/QtGui/qguiapplication.h \
+ /usr/include/qt5/QtGui/qinputmethod.h \
+ /usr/include/qt5/QtWidgets/QGraphicsView \
+ /usr/include/qt5/QtWidgets/qgraphicsview.h \
+ /usr/include/qt5/QtGui/qpainter.h \
+ /usr/include/qt5/QtWidgets/qscrollarea.h \
+ /usr/include/qt5/QtWidgets/qabstractscrollarea.h \
+ /usr/include/qt5/QtWidgets/qframe.h /usr/include/qt5/QtWidgets/qwidget.h \
+ /usr/include/qt5/QtGui/qpalette.h \
+ /usr/include/qt5/QtWidgets/qsizepolicy.h \
+ /usr/include/qt5/QtGui/qkeysequence.h \
+ /usr/include/qt5/QtWidgets/qgraphicsscene.h /usr/include/c++/12/cmath \
+ /usr/include/math.h /usr/include/bits/math-vector.h \
+ /usr/include/bits/libm-simd-decl-stubs.h \
+ /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
+ /usr/include/bits/fp-fast.h \
+ /usr/include/bits/mathcalls-helper-functions.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
+ /usr/include/bits/iscanonical.h /usr/include/c++/12/bits/specfun.h \
+ /usr/include/c++/12/tr1/gamma.tcc \
+ /usr/include/c++/12/tr1/special_function_util.h \
+ /usr/include/c++/12/tr1/bessel_function.tcc \
+ /usr/include/c++/12/tr1/beta_function.tcc \
+ /usr/include/c++/12/tr1/ell_integral.tcc \
+ /usr/include/c++/12/tr1/exp_integral.tcc \
+ /usr/include/c++/12/tr1/hypergeometric.tcc \
+ /usr/include/c++/12/tr1/legendre_function.tcc \
+ /usr/include/c++/12/tr1/modified_bessel_func.tcc \
+ /usr/include/c++/12/tr1/poly_hermite.tcc \
+ /usr/include/c++/12/tr1/poly_laguerre.tcc \
+ /usr/include/c++/12/tr1/riemann_zeta.tcc \
+ /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/PDH6BJJCOA/moc_figure.cpp \
+ /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/ZJT2GNCIQE/moc_hexagon.cpp \
+ /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/ZJT2GNCIQE/../../figures/hexagon/hexagon.h \
+ /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/GDMEC2FCRB/moc_line.cpp \
+ /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/GDMEC2FCRB/../../figures/line/line.h \
+ /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/EARCVCUABT/moc_parallelepiped.cpp \
+ /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/EARCVCUABT/../../figures/parallelepiped/parallelepiped.h \
  /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/TQNZCBDM3P/moc_rectangle.cpp \
- /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/TQNZCBDM3P/../../../../../../projects/c/two_course/coursework/figures/rectangle/rectangle.h \
+ /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/TQNZCBDM3P/../../figures/rectangle/rectangle.h \
+ /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/YT6CJFN2A4/moc_rectangleOval.cpp \
+ /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/YT6CJFN2A4/../../figures/rectangleOval/rectangleOval.h \
  /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/7YTNYDDD2B/moc_rhomb.cpp \
- /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/7YTNYDDD2B/../../../../../../projects/c/two_course/coursework/figures/rhomb/rhomb.h \
+ /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/7YTNYDDD2B/../../figures/rhomb/rhomb.h \
  /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/TXKPOHTVN7/moc_main_window.cpp \
- /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/TXKPOHTVN7/../../../../../../projects/c/two_course/coursework/main_window/main_window.h \
+ /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/TXKPOHTVN7/../../main_window/main_window.h \
  /usr/include/qt5/QtWidgets/QMainWindow \
  /usr/include/qt5/QtWidgets/qmainwindow.h \
- /usr/include/qt5/QtWidgets/qwidget.h /usr/include/qt5/QtGui/qpalette.h \
- /usr/include/qt5/QtGui/qbrush.h /usr/include/qt5/QtGui/qfont.h \
- /usr/include/qt5/QtGui/qfontmetrics.h /usr/include/qt5/QtGui/qfontinfo.h \
- /usr/include/qt5/QtWidgets/qsizepolicy.h \
- /usr/include/qt5/QtGui/qcursor.h /usr/include/qt5/QtGui/qkeysequence.h \
  /usr/include/qt5/QtWidgets/qtabwidget.h /usr/include/qt5/QtGui/qicon.h \
  /usr/include/qt5/QtWidgets/QStackedWidget \
  /usr/include/qt5/QtWidgets/qstackedwidget.h \
- /usr/include/qt5/QtWidgets/qframe.h /usr/include/qt5/QtCore/QString \
- /usr/include/qt5/QtCore/qstring.h /usr/include/qt5/QtCore/QVector \
- /usr/include/qt5/QtCore/qvector.h \
+ /usr/include/qt5/QtCore/QString /usr/include/qt5/QtCore/qstring.h \
+ /usr/include/qt5/QtCore/QVector /usr/include/qt5/QtCore/qvector.h \
  /home/mr-geri/Проекты/c/two_course/coursework/constants.h \
  /home/mr-geri/Проекты/c/two_course/coursework/myGraphicView/myGraphicView.h \
  /usr/include/qt5/QtWidgets/QGraphicsItemGroup \
- /usr/include/qt5/QtWidgets/QGraphicsScene \
- /usr/include/qt5/QtWidgets/qgraphicsscene.h \
- /usr/include/qt5/QtGui/qpen.h /usr/include/qt5/QtWidgets/QGraphicsView \
- /usr/include/qt5/QtWidgets/qgraphicsview.h \
- /usr/include/qt5/QtGui/qpainter.h /usr/include/qt5/QtGui/qtextoption.h \
- /usr/include/qt5/QtWidgets/qscrollarea.h \
- /usr/include/qt5/QtWidgets/qabstractscrollarea.h \
- /usr/include/qt5/QtWidgets/qgraphicsscene.h \
  /usr/include/qt5/QtCore/QTimer /usr/include/qt5/QtCore/qtimer.h \
  /usr/include/qt5/QtCore/qbasictimer.h /usr/include/qt5/QtWidgets/QWidget \
  /usr/include/qt5/QtWidgets/qwidget.h \
  /home/mr-geri/Проекты/c/two_course/coursework/myGraphicScene/myGraphicScene.h \
  /home/mr-geri/Проекты/c/two_course/coursework/randomPoints/randomPoints.h \
  /usr/include/qt5/QtCore/QPoint /usr/include/qt5/QtCore/qpoint.h \
- /usr/include/qt5/QtWidgets/qgraphicsitem.h \
  /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/OIYP2VNH46/moc_myGraphicScene.cpp \
  /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/VCNREXAN4N/moc_myGraphicView.cpp

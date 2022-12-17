@@ -1,7 +1,7 @@
 CMakeFiles/coursework.dir/figures/rhomb/rhomb.cpp.o: \
- /home/mr-geri/projects/c/two_course/coursework/figures/rhomb/rhomb.cpp \
+ /home/mr-geri/Проекты/c/two_course/coursework/figures/rhomb/rhomb.cpp \
  /usr/include/stdc-predef.h \
- /home/mr-geri/projects/c/two_course/coursework/figures/rhomb/rhomb.h \
+ /home/mr-geri/Проекты/c/two_course/coursework/figures/rhomb/rhomb.h \
  /home/mr-geri/Проекты/c/two_course/coursework/figures/figure/figure.h \
  /usr/include/qt5/QtCore/QDebug /usr/include/qt5/QtCore/qdebug.h \
  /usr/include/qt5/QtCore/qalgorithms.h /usr/include/qt5/QtCore/qglobal.h \
@@ -228,8 +228,32 @@ CMakeFiles/coursework.dir/figures/rhomb/rhomb.cpp.o: \
  /usr/include/qt5/QtGui/qpaintdevice.h /usr/include/qt5/QtGui/qcolor.h \
  /usr/include/qt5/QtGui/qrgb.h /usr/include/qt5/QtGui/qrgba64.h \
  /usr/include/qt5/QtGui/qimage.h /usr/include/qt5/QtGui/qpixelformat.h \
- /usr/include/qt5/QtCore/QObject /usr/include/qt5/QtCore/qobject.h \
- /usr/include/qt5/QtGui/QPainter /usr/include/qt5/QtGui/qpainter.h \
- /usr/include/qt5/QtGui/qtextoption.h /usr/include/qt5/QtGui/qpen.h \
- /usr/include/qt5/QtGui/qbrush.h /usr/include/qt5/QtGui/qfontinfo.h \
- /usr/include/qt5/QtGui/qfont.h /usr/include/qt5/QtGui/qfontmetrics.h
+ /usr/include/qt5/QtWidgets/QGraphicsSceneMouseEvent \
+ /usr/include/qt5/QtWidgets/qgraphicssceneevent.h \
+ /usr/include/qt5/QtCore/qcoreevent.h /usr/include/qt5/QtCore/QObject \
+ /usr/include/qt5/QtCore/qobject.h \
+ /usr/include/qt5/QtWidgets/QGraphicsScene \
+ /usr/include/qt5/QtWidgets/qgraphicsscene.h \
+ /usr/include/qt5/QtGui/qbrush.h /usr/include/qt5/QtGui/qfont.h \
+ /usr/include/qt5/QtGui/qpen.h /usr/include/qt5/QtGui/QPainter \
+ /usr/include/qt5/QtGui/qpainter.h /usr/include/qt5/QtGui/qtextoption.h \
+ /usr/include/qt5/QtGui/qfontinfo.h /usr/include/qt5/QtGui/qfontmetrics.h \
+ /usr/include/qt5/QtGui/QCursor /usr/include/qt5/QtGui/qcursor.h \
+ /usr/include/qt5/QtWidgets/qgraphicsitem.h \
+ /home/mr-geri/Проекты/c/two_course/coursework/text/text.h \
+ /usr/include/qt5/QtWidgets/QApplication \
+ /usr/include/qt5/QtWidgets/qapplication.h \
+ /usr/include/qt5/QtCore/qcoreapplication.h \
+ /usr/include/qt5/QtCore/qeventloop.h /usr/include/qt5/QtGui/qcursor.h \
+ /usr/include/qt5/QtGui/qguiapplication.h \
+ /usr/include/qt5/QtGui/qinputmethod.h \
+ /usr/include/qt5/QtWidgets/QGraphicsView \
+ /usr/include/qt5/QtWidgets/qgraphicsview.h \
+ /usr/include/qt5/QtGui/qpainter.h \
+ /usr/include/qt5/QtWidgets/qscrollarea.h \
+ /usr/include/qt5/QtWidgets/qabstractscrollarea.h \
+ /usr/include/qt5/QtWidgets/qframe.h /usr/include/qt5/QtWidgets/qwidget.h \
+ /usr/include/qt5/QtGui/qpalette.h \
+ /usr/include/qt5/QtWidgets/qsizepolicy.h \
+ /usr/include/qt5/QtGui/qkeysequence.h \
+ /usr/include/qt5/QtWidgets/qgraphicsscene.h

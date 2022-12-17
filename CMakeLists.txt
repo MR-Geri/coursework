@@ -19,8 +19,13 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Test Widgets)
 file(GLOB coursework_src CONFIGURE_DEPENDS
   "resource.qrc"
   "*.cpp" "*.h" "*.ui"
-  "*/*.cpp" "*/*.h" "*/*.ui"
-  "*/*/*.cpp" "*/*/*.h" "*/*/*.ui"
+  "text/*.cpp" "text/*.h" "text/*.ui"
+  "randomPoints/*.cpp" "randomPoints/*.h" "randomPoints/*.ui"
+  "figures/*/*.cpp" "figures/*/*.h" "figures/*/*.ui"
+  "myGraphicScene/*.cpp" "myGraphicScene/*.h" "myGraphicScene/*.ui"
+  "myGraphicView/*.cpp" "myGraphicView/*.h" "myGraphicView/*.ui"
+  "main_window/*.cpp" "main_window/*.h" "main_window/*.ui"
+  # "*/*/*.cpp" "*/*/*.h" "*/*/*.ui"
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

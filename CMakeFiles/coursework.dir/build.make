@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mr-geri/projects/c/two_course/coursework
+CMAKE_SOURCE_DIR = /home/mr-geri/Проекты/c/two_course/coursework
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/mr-geri/Проекты/c/two_course/coursework
@@ -69,15 +69,15 @@ include CMakeFiles/coursework.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/coursework.dir/flags.make
 
-coursework_autogen/EWIEGA46WW/qrc_resource.cpp: /home/mr-geri/projects/c/two_course/coursework/resource.qrc
+coursework_autogen/EWIEGA46WW/qrc_resource.cpp: resource.qrc
 coursework_autogen/EWIEGA46WW/qrc_resource.cpp: CMakeFiles/coursework_autogen.dir/AutoRcc_resource_EWIEGA46WW_Info.json
-coursework_autogen/EWIEGA46WW/qrc_resource.cpp: /home/mr-geri/projects/c/two_course/coursework/icons/parallelepiped.png
-coursework_autogen/EWIEGA46WW/qrc_resource.cpp: /home/mr-geri/projects/c/two_course/coursework/icons/hexagon.png
-coursework_autogen/EWIEGA46WW/qrc_resource.cpp: /home/mr-geri/projects/c/two_course/coursework/icons/rectangle_oval.png
-coursework_autogen/EWIEGA46WW/qrc_resource.cpp: /home/mr-geri/projects/c/two_course/coursework/icons/rhomb.png
-coursework_autogen/EWIEGA46WW/qrc_resource.cpp: /home/mr-geri/projects/c/two_course/coursework/icons/line.png
-coursework_autogen/EWIEGA46WW/qrc_resource.cpp: /home/mr-geri/projects/c/two_course/coursework/icons/rectangle.png
-coursework_autogen/EWIEGA46WW/qrc_resource.cpp: /home/mr-geri/projects/c/two_course/coursework/icons/arrow.png
+coursework_autogen/EWIEGA46WW/qrc_resource.cpp: icons/parallelepiped.png
+coursework_autogen/EWIEGA46WW/qrc_resource.cpp: icons/hexagon.png
+coursework_autogen/EWIEGA46WW/qrc_resource.cpp: icons/rectangle_oval.png
+coursework_autogen/EWIEGA46WW/qrc_resource.cpp: icons/rhomb.png
+coursework_autogen/EWIEGA46WW/qrc_resource.cpp: icons/line.png
+coursework_autogen/EWIEGA46WW/qrc_resource.cpp: icons/rectangle.png
+coursework_autogen/EWIEGA46WW/qrc_resource.cpp: icons/arrow.png
 coursework_autogen/EWIEGA46WW/qrc_resource.cpp: /usr/lib64/qt5/bin/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for resource.qrc"
 	/usr/bin/cmake -E cmake_autorcc /home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles/coursework_autogen.dir/AutoRcc_resource_EWIEGA46WW_Info.json Debug
@@ -96,122 +96,206 @@ CMakeFiles/coursework.dir/coursework_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursework.dir/coursework_autogen/mocs_compilation.cpp.s"
 	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/mocs_compilation.cpp -o CMakeFiles/coursework.dir/coursework_autogen/mocs_compilation.cpp.s
 
+CMakeFiles/coursework.dir/figures/arrow/arrow.cpp.o: CMakeFiles/coursework.dir/flags.make
+CMakeFiles/coursework.dir/figures/arrow/arrow.cpp.o: figures/arrow/arrow.cpp
+CMakeFiles/coursework.dir/figures/arrow/arrow.cpp.o: CMakeFiles/coursework.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/coursework.dir/figures/arrow/arrow.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework.dir/figures/arrow/arrow.cpp.o -MF CMakeFiles/coursework.dir/figures/arrow/arrow.cpp.o.d -o CMakeFiles/coursework.dir/figures/arrow/arrow.cpp.o -c /home/mr-geri/Проекты/c/two_course/coursework/figures/arrow/arrow.cpp
+
+CMakeFiles/coursework.dir/figures/arrow/arrow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursework.dir/figures/arrow/arrow.cpp.i"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mr-geri/Проекты/c/two_course/coursework/figures/arrow/arrow.cpp > CMakeFiles/coursework.dir/figures/arrow/arrow.cpp.i
+
+CMakeFiles/coursework.dir/figures/arrow/arrow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursework.dir/figures/arrow/arrow.cpp.s"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mr-geri/Проекты/c/two_course/coursework/figures/arrow/arrow.cpp -o CMakeFiles/coursework.dir/figures/arrow/arrow.cpp.s
+
 CMakeFiles/coursework.dir/figures/figure/figure.cpp.o: CMakeFiles/coursework.dir/flags.make
-CMakeFiles/coursework.dir/figures/figure/figure.cpp.o: /home/mr-geri/projects/c/two_course/coursework/figures/figure/figure.cpp
+CMakeFiles/coursework.dir/figures/figure/figure.cpp.o: figures/figure/figure.cpp
 CMakeFiles/coursework.dir/figures/figure/figure.cpp.o: CMakeFiles/coursework.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/coursework.dir/figures/figure/figure.cpp.o"
-	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework.dir/figures/figure/figure.cpp.o -MF CMakeFiles/coursework.dir/figures/figure/figure.cpp.o.d -o CMakeFiles/coursework.dir/figures/figure/figure.cpp.o -c /home/mr-geri/projects/c/two_course/coursework/figures/figure/figure.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/coursework.dir/figures/figure/figure.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework.dir/figures/figure/figure.cpp.o -MF CMakeFiles/coursework.dir/figures/figure/figure.cpp.o.d -o CMakeFiles/coursework.dir/figures/figure/figure.cpp.o -c /home/mr-geri/Проекты/c/two_course/coursework/figures/figure/figure.cpp
 
 CMakeFiles/coursework.dir/figures/figure/figure.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursework.dir/figures/figure/figure.cpp.i"
-	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mr-geri/projects/c/two_course/coursework/figures/figure/figure.cpp > CMakeFiles/coursework.dir/figures/figure/figure.cpp.i
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mr-geri/Проекты/c/two_course/coursework/figures/figure/figure.cpp > CMakeFiles/coursework.dir/figures/figure/figure.cpp.i
 
 CMakeFiles/coursework.dir/figures/figure/figure.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursework.dir/figures/figure/figure.cpp.s"
-	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mr-geri/projects/c/two_course/coursework/figures/figure/figure.cpp -o CMakeFiles/coursework.dir/figures/figure/figure.cpp.s
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mr-geri/Проекты/c/two_course/coursework/figures/figure/figure.cpp -o CMakeFiles/coursework.dir/figures/figure/figure.cpp.s
 
-CMakeFiles/coursework.dir/figures/rectangle/rectange.cpp.o: CMakeFiles/coursework.dir/flags.make
-CMakeFiles/coursework.dir/figures/rectangle/rectange.cpp.o: /home/mr-geri/projects/c/two_course/coursework/figures/rectangle/rectange.cpp
-CMakeFiles/coursework.dir/figures/rectangle/rectange.cpp.o: CMakeFiles/coursework.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/coursework.dir/figures/rectangle/rectange.cpp.o"
-	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework.dir/figures/rectangle/rectange.cpp.o -MF CMakeFiles/coursework.dir/figures/rectangle/rectange.cpp.o.d -o CMakeFiles/coursework.dir/figures/rectangle/rectange.cpp.o -c /home/mr-geri/projects/c/two_course/coursework/figures/rectangle/rectange.cpp
+CMakeFiles/coursework.dir/figures/hexagon/hexagon.cpp.o: CMakeFiles/coursework.dir/flags.make
+CMakeFiles/coursework.dir/figures/hexagon/hexagon.cpp.o: figures/hexagon/hexagon.cpp
+CMakeFiles/coursework.dir/figures/hexagon/hexagon.cpp.o: CMakeFiles/coursework.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/coursework.dir/figures/hexagon/hexagon.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework.dir/figures/hexagon/hexagon.cpp.o -MF CMakeFiles/coursework.dir/figures/hexagon/hexagon.cpp.o.d -o CMakeFiles/coursework.dir/figures/hexagon/hexagon.cpp.o -c /home/mr-geri/Проекты/c/two_course/coursework/figures/hexagon/hexagon.cpp
 
-CMakeFiles/coursework.dir/figures/rectangle/rectange.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursework.dir/figures/rectangle/rectange.cpp.i"
-	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mr-geri/projects/c/two_course/coursework/figures/rectangle/rectange.cpp > CMakeFiles/coursework.dir/figures/rectangle/rectange.cpp.i
+CMakeFiles/coursework.dir/figures/hexagon/hexagon.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursework.dir/figures/hexagon/hexagon.cpp.i"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mr-geri/Проекты/c/two_course/coursework/figures/hexagon/hexagon.cpp > CMakeFiles/coursework.dir/figures/hexagon/hexagon.cpp.i
 
-CMakeFiles/coursework.dir/figures/rectangle/rectange.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursework.dir/figures/rectangle/rectange.cpp.s"
-	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mr-geri/projects/c/two_course/coursework/figures/rectangle/rectange.cpp -o CMakeFiles/coursework.dir/figures/rectangle/rectange.cpp.s
+CMakeFiles/coursework.dir/figures/hexagon/hexagon.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursework.dir/figures/hexagon/hexagon.cpp.s"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mr-geri/Проекты/c/two_course/coursework/figures/hexagon/hexagon.cpp -o CMakeFiles/coursework.dir/figures/hexagon/hexagon.cpp.s
+
+CMakeFiles/coursework.dir/figures/line/line.cpp.o: CMakeFiles/coursework.dir/flags.make
+CMakeFiles/coursework.dir/figures/line/line.cpp.o: figures/line/line.cpp
+CMakeFiles/coursework.dir/figures/line/line.cpp.o: CMakeFiles/coursework.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/coursework.dir/figures/line/line.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework.dir/figures/line/line.cpp.o -MF CMakeFiles/coursework.dir/figures/line/line.cpp.o.d -o CMakeFiles/coursework.dir/figures/line/line.cpp.o -c /home/mr-geri/Проекты/c/two_course/coursework/figures/line/line.cpp
+
+CMakeFiles/coursework.dir/figures/line/line.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursework.dir/figures/line/line.cpp.i"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mr-geri/Проекты/c/two_course/coursework/figures/line/line.cpp > CMakeFiles/coursework.dir/figures/line/line.cpp.i
+
+CMakeFiles/coursework.dir/figures/line/line.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursework.dir/figures/line/line.cpp.s"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mr-geri/Проекты/c/two_course/coursework/figures/line/line.cpp -o CMakeFiles/coursework.dir/figures/line/line.cpp.s
+
+CMakeFiles/coursework.dir/figures/parallelepiped/parallelepiped.cpp.o: CMakeFiles/coursework.dir/flags.make
+CMakeFiles/coursework.dir/figures/parallelepiped/parallelepiped.cpp.o: figures/parallelepiped/parallelepiped.cpp
+CMakeFiles/coursework.dir/figures/parallelepiped/parallelepiped.cpp.o: CMakeFiles/coursework.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/coursework.dir/figures/parallelepiped/parallelepiped.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework.dir/figures/parallelepiped/parallelepiped.cpp.o -MF CMakeFiles/coursework.dir/figures/parallelepiped/parallelepiped.cpp.o.d -o CMakeFiles/coursework.dir/figures/parallelepiped/parallelepiped.cpp.o -c /home/mr-geri/Проекты/c/two_course/coursework/figures/parallelepiped/parallelepiped.cpp
+
+CMakeFiles/coursework.dir/figures/parallelepiped/parallelepiped.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursework.dir/figures/parallelepiped/parallelepiped.cpp.i"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mr-geri/Проекты/c/two_course/coursework/figures/parallelepiped/parallelepiped.cpp > CMakeFiles/coursework.dir/figures/parallelepiped/parallelepiped.cpp.i
+
+CMakeFiles/coursework.dir/figures/parallelepiped/parallelepiped.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursework.dir/figures/parallelepiped/parallelepiped.cpp.s"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mr-geri/Проекты/c/two_course/coursework/figures/parallelepiped/parallelepiped.cpp -o CMakeFiles/coursework.dir/figures/parallelepiped/parallelepiped.cpp.s
+
+CMakeFiles/coursework.dir/figures/rectangle/rectangle.cpp.o: CMakeFiles/coursework.dir/flags.make
+CMakeFiles/coursework.dir/figures/rectangle/rectangle.cpp.o: figures/rectangle/rectangle.cpp
+CMakeFiles/coursework.dir/figures/rectangle/rectangle.cpp.o: CMakeFiles/coursework.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/coursework.dir/figures/rectangle/rectangle.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework.dir/figures/rectangle/rectangle.cpp.o -MF CMakeFiles/coursework.dir/figures/rectangle/rectangle.cpp.o.d -o CMakeFiles/coursework.dir/figures/rectangle/rectangle.cpp.o -c /home/mr-geri/Проекты/c/two_course/coursework/figures/rectangle/rectangle.cpp
+
+CMakeFiles/coursework.dir/figures/rectangle/rectangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursework.dir/figures/rectangle/rectangle.cpp.i"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mr-geri/Проекты/c/two_course/coursework/figures/rectangle/rectangle.cpp > CMakeFiles/coursework.dir/figures/rectangle/rectangle.cpp.i
+
+CMakeFiles/coursework.dir/figures/rectangle/rectangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursework.dir/figures/rectangle/rectangle.cpp.s"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mr-geri/Проекты/c/two_course/coursework/figures/rectangle/rectangle.cpp -o CMakeFiles/coursework.dir/figures/rectangle/rectangle.cpp.s
+
+CMakeFiles/coursework.dir/figures/rectangleOval/rectangleOval.cpp.o: CMakeFiles/coursework.dir/flags.make
+CMakeFiles/coursework.dir/figures/rectangleOval/rectangleOval.cpp.o: figures/rectangleOval/rectangleOval.cpp
+CMakeFiles/coursework.dir/figures/rectangleOval/rectangleOval.cpp.o: CMakeFiles/coursework.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/coursework.dir/figures/rectangleOval/rectangleOval.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework.dir/figures/rectangleOval/rectangleOval.cpp.o -MF CMakeFiles/coursework.dir/figures/rectangleOval/rectangleOval.cpp.o.d -o CMakeFiles/coursework.dir/figures/rectangleOval/rectangleOval.cpp.o -c /home/mr-geri/Проекты/c/two_course/coursework/figures/rectangleOval/rectangleOval.cpp
+
+CMakeFiles/coursework.dir/figures/rectangleOval/rectangleOval.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursework.dir/figures/rectangleOval/rectangleOval.cpp.i"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mr-geri/Проекты/c/two_course/coursework/figures/rectangleOval/rectangleOval.cpp > CMakeFiles/coursework.dir/figures/rectangleOval/rectangleOval.cpp.i
+
+CMakeFiles/coursework.dir/figures/rectangleOval/rectangleOval.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursework.dir/figures/rectangleOval/rectangleOval.cpp.s"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mr-geri/Проекты/c/two_course/coursework/figures/rectangleOval/rectangleOval.cpp -o CMakeFiles/coursework.dir/figures/rectangleOval/rectangleOval.cpp.s
 
 CMakeFiles/coursework.dir/figures/rhomb/rhomb.cpp.o: CMakeFiles/coursework.dir/flags.make
-CMakeFiles/coursework.dir/figures/rhomb/rhomb.cpp.o: /home/mr-geri/projects/c/two_course/coursework/figures/rhomb/rhomb.cpp
+CMakeFiles/coursework.dir/figures/rhomb/rhomb.cpp.o: figures/rhomb/rhomb.cpp
 CMakeFiles/coursework.dir/figures/rhomb/rhomb.cpp.o: CMakeFiles/coursework.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/coursework.dir/figures/rhomb/rhomb.cpp.o"
-	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework.dir/figures/rhomb/rhomb.cpp.o -MF CMakeFiles/coursework.dir/figures/rhomb/rhomb.cpp.o.d -o CMakeFiles/coursework.dir/figures/rhomb/rhomb.cpp.o -c /home/mr-geri/projects/c/two_course/coursework/figures/rhomb/rhomb.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/coursework.dir/figures/rhomb/rhomb.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework.dir/figures/rhomb/rhomb.cpp.o -MF CMakeFiles/coursework.dir/figures/rhomb/rhomb.cpp.o.d -o CMakeFiles/coursework.dir/figures/rhomb/rhomb.cpp.o -c /home/mr-geri/Проекты/c/two_course/coursework/figures/rhomb/rhomb.cpp
 
 CMakeFiles/coursework.dir/figures/rhomb/rhomb.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursework.dir/figures/rhomb/rhomb.cpp.i"
-	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mr-geri/projects/c/two_course/coursework/figures/rhomb/rhomb.cpp > CMakeFiles/coursework.dir/figures/rhomb/rhomb.cpp.i
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mr-geri/Проекты/c/two_course/coursework/figures/rhomb/rhomb.cpp > CMakeFiles/coursework.dir/figures/rhomb/rhomb.cpp.i
 
 CMakeFiles/coursework.dir/figures/rhomb/rhomb.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursework.dir/figures/rhomb/rhomb.cpp.s"
-	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mr-geri/projects/c/two_course/coursework/figures/rhomb/rhomb.cpp -o CMakeFiles/coursework.dir/figures/rhomb/rhomb.cpp.s
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mr-geri/Проекты/c/two_course/coursework/figures/rhomb/rhomb.cpp -o CMakeFiles/coursework.dir/figures/rhomb/rhomb.cpp.s
 
 CMakeFiles/coursework.dir/main.cpp.o: CMakeFiles/coursework.dir/flags.make
-CMakeFiles/coursework.dir/main.cpp.o: /home/mr-geri/projects/c/two_course/coursework/main.cpp
+CMakeFiles/coursework.dir/main.cpp.o: main.cpp
 CMakeFiles/coursework.dir/main.cpp.o: CMakeFiles/coursework.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/coursework.dir/main.cpp.o"
-	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework.dir/main.cpp.o -MF CMakeFiles/coursework.dir/main.cpp.o.d -o CMakeFiles/coursework.dir/main.cpp.o -c /home/mr-geri/projects/c/two_course/coursework/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/coursework.dir/main.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework.dir/main.cpp.o -MF CMakeFiles/coursework.dir/main.cpp.o.d -o CMakeFiles/coursework.dir/main.cpp.o -c /home/mr-geri/Проекты/c/two_course/coursework/main.cpp
 
 CMakeFiles/coursework.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursework.dir/main.cpp.i"
-	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mr-geri/projects/c/two_course/coursework/main.cpp > CMakeFiles/coursework.dir/main.cpp.i
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mr-geri/Проекты/c/two_course/coursework/main.cpp > CMakeFiles/coursework.dir/main.cpp.i
 
 CMakeFiles/coursework.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursework.dir/main.cpp.s"
-	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mr-geri/projects/c/two_course/coursework/main.cpp -o CMakeFiles/coursework.dir/main.cpp.s
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mr-geri/Проекты/c/two_course/coursework/main.cpp -o CMakeFiles/coursework.dir/main.cpp.s
 
 CMakeFiles/coursework.dir/main_window/main_window.cpp.o: CMakeFiles/coursework.dir/flags.make
-CMakeFiles/coursework.dir/main_window/main_window.cpp.o: /home/mr-geri/projects/c/two_course/coursework/main_window/main_window.cpp
+CMakeFiles/coursework.dir/main_window/main_window.cpp.o: main_window/main_window.cpp
 CMakeFiles/coursework.dir/main_window/main_window.cpp.o: CMakeFiles/coursework.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/coursework.dir/main_window/main_window.cpp.o"
-	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework.dir/main_window/main_window.cpp.o -MF CMakeFiles/coursework.dir/main_window/main_window.cpp.o.d -o CMakeFiles/coursework.dir/main_window/main_window.cpp.o -c /home/mr-geri/projects/c/two_course/coursework/main_window/main_window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/coursework.dir/main_window/main_window.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework.dir/main_window/main_window.cpp.o -MF CMakeFiles/coursework.dir/main_window/main_window.cpp.o.d -o CMakeFiles/coursework.dir/main_window/main_window.cpp.o -c /home/mr-geri/Проекты/c/two_course/coursework/main_window/main_window.cpp
 
 CMakeFiles/coursework.dir/main_window/main_window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursework.dir/main_window/main_window.cpp.i"
-	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mr-geri/projects/c/two_course/coursework/main_window/main_window.cpp > CMakeFiles/coursework.dir/main_window/main_window.cpp.i
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mr-geri/Проекты/c/two_course/coursework/main_window/main_window.cpp > CMakeFiles/coursework.dir/main_window/main_window.cpp.i
 
 CMakeFiles/coursework.dir/main_window/main_window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursework.dir/main_window/main_window.cpp.s"
-	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mr-geri/projects/c/two_course/coursework/main_window/main_window.cpp -o CMakeFiles/coursework.dir/main_window/main_window.cpp.s
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mr-geri/Проекты/c/two_course/coursework/main_window/main_window.cpp -o CMakeFiles/coursework.dir/main_window/main_window.cpp.s
 
 CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.o: CMakeFiles/coursework.dir/flags.make
-CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.o: /home/mr-geri/projects/c/two_course/coursework/myGraphicScene/myGraphicScene.cpp
+CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.o: myGraphicScene/myGraphicScene.cpp
 CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.o: CMakeFiles/coursework.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.o"
-	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.o -MF CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.o.d -o CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.o -c /home/mr-geri/projects/c/two_course/coursework/myGraphicScene/myGraphicScene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.o -MF CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.o.d -o CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.o -c /home/mr-geri/Проекты/c/two_course/coursework/myGraphicScene/myGraphicScene.cpp
 
 CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.i"
-	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mr-geri/projects/c/two_course/coursework/myGraphicScene/myGraphicScene.cpp > CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.i
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mr-geri/Проекты/c/two_course/coursework/myGraphicScene/myGraphicScene.cpp > CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.i
 
 CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.s"
-	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mr-geri/projects/c/two_course/coursework/myGraphicScene/myGraphicScene.cpp -o CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.s
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mr-geri/Проекты/c/two_course/coursework/myGraphicScene/myGraphicScene.cpp -o CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.s
 
 CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.o: CMakeFiles/coursework.dir/flags.make
-CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.o: /home/mr-geri/projects/c/two_course/coursework/myGraphicView/myGraphicView.cpp
+CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.o: myGraphicView/myGraphicView.cpp
 CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.o: CMakeFiles/coursework.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.o"
-	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.o -MF CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.o.d -o CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.o -c /home/mr-geri/projects/c/two_course/coursework/myGraphicView/myGraphicView.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.o -MF CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.o.d -o CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.o -c /home/mr-geri/Проекты/c/two_course/coursework/myGraphicView/myGraphicView.cpp
 
 CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.i"
-	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mr-geri/projects/c/two_course/coursework/myGraphicView/myGraphicView.cpp > CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.i
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mr-geri/Проекты/c/two_course/coursework/myGraphicView/myGraphicView.cpp > CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.i
 
 CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.s"
-	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mr-geri/projects/c/two_course/coursework/myGraphicView/myGraphicView.cpp -o CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.s
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mr-geri/Проекты/c/two_course/coursework/myGraphicView/myGraphicView.cpp -o CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.s
 
 CMakeFiles/coursework.dir/randomPoints/randomPoints.cpp.o: CMakeFiles/coursework.dir/flags.make
-CMakeFiles/coursework.dir/randomPoints/randomPoints.cpp.o: /home/mr-geri/projects/c/two_course/coursework/randomPoints/randomPoints.cpp
+CMakeFiles/coursework.dir/randomPoints/randomPoints.cpp.o: randomPoints/randomPoints.cpp
 CMakeFiles/coursework.dir/randomPoints/randomPoints.cpp.o: CMakeFiles/coursework.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/coursework.dir/randomPoints/randomPoints.cpp.o"
-	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework.dir/randomPoints/randomPoints.cpp.o -MF CMakeFiles/coursework.dir/randomPoints/randomPoints.cpp.o.d -o CMakeFiles/coursework.dir/randomPoints/randomPoints.cpp.o -c /home/mr-geri/projects/c/two_course/coursework/randomPoints/randomPoints.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/coursework.dir/randomPoints/randomPoints.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework.dir/randomPoints/randomPoints.cpp.o -MF CMakeFiles/coursework.dir/randomPoints/randomPoints.cpp.o.d -o CMakeFiles/coursework.dir/randomPoints/randomPoints.cpp.o -c /home/mr-geri/Проекты/c/two_course/coursework/randomPoints/randomPoints.cpp
 
 CMakeFiles/coursework.dir/randomPoints/randomPoints.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursework.dir/randomPoints/randomPoints.cpp.i"
-	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mr-geri/projects/c/two_course/coursework/randomPoints/randomPoints.cpp > CMakeFiles/coursework.dir/randomPoints/randomPoints.cpp.i
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mr-geri/Проекты/c/two_course/coursework/randomPoints/randomPoints.cpp > CMakeFiles/coursework.dir/randomPoints/randomPoints.cpp.i
 
 CMakeFiles/coursework.dir/randomPoints/randomPoints.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursework.dir/randomPoints/randomPoints.cpp.s"
-	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mr-geri/projects/c/two_course/coursework/randomPoints/randomPoints.cpp -o CMakeFiles/coursework.dir/randomPoints/randomPoints.cpp.s
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mr-geri/Проекты/c/two_course/coursework/randomPoints/randomPoints.cpp -o CMakeFiles/coursework.dir/randomPoints/randomPoints.cpp.s
+
+CMakeFiles/coursework.dir/text/text.cpp.o: CMakeFiles/coursework.dir/flags.make
+CMakeFiles/coursework.dir/text/text.cpp.o: text/text.cpp
+CMakeFiles/coursework.dir/text/text.cpp.o: CMakeFiles/coursework.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/coursework.dir/text/text.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework.dir/text/text.cpp.o -MF CMakeFiles/coursework.dir/text/text.cpp.o.d -o CMakeFiles/coursework.dir/text/text.cpp.o -c /home/mr-geri/Проекты/c/two_course/coursework/text/text.cpp
+
+CMakeFiles/coursework.dir/text/text.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursework.dir/text/text.cpp.i"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mr-geri/Проекты/c/two_course/coursework/text/text.cpp > CMakeFiles/coursework.dir/text/text.cpp.i
+
+CMakeFiles/coursework.dir/text/text.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursework.dir/text/text.cpp.s"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mr-geri/Проекты/c/two_course/coursework/text/text.cpp -o CMakeFiles/coursework.dir/text/text.cpp.s
 
 CMakeFiles/coursework.dir/coursework_autogen/EWIEGA46WW/qrc_resource.cpp.o: CMakeFiles/coursework.dir/flags.make
 CMakeFiles/coursework.dir/coursework_autogen/EWIEGA46WW/qrc_resource.cpp.o: coursework_autogen/EWIEGA46WW/qrc_resource.cpp
 CMakeFiles/coursework.dir/coursework_autogen/EWIEGA46WW/qrc_resource.cpp.o: CMakeFiles/coursework.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/coursework.dir/coursework_autogen/EWIEGA46WW/qrc_resource.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/coursework.dir/coursework_autogen/EWIEGA46WW/qrc_resource.cpp.o"
 	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework.dir/coursework_autogen/EWIEGA46WW/qrc_resource.cpp.o -MF CMakeFiles/coursework.dir/coursework_autogen/EWIEGA46WW/qrc_resource.cpp.o.d -o CMakeFiles/coursework.dir/coursework_autogen/EWIEGA46WW/qrc_resource.cpp.o -c /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/EWIEGA46WW/qrc_resource.cpp
 
 CMakeFiles/coursework.dir/coursework_autogen/EWIEGA46WW/qrc_resource.cpp.i: cmake_force
@@ -225,28 +309,40 @@ CMakeFiles/coursework.dir/coursework_autogen/EWIEGA46WW/qrc_resource.cpp.s: cmak
 # Object files for target coursework
 coursework_OBJECTS = \
 "CMakeFiles/coursework.dir/coursework_autogen/mocs_compilation.cpp.o" \
+"CMakeFiles/coursework.dir/figures/arrow/arrow.cpp.o" \
 "CMakeFiles/coursework.dir/figures/figure/figure.cpp.o" \
-"CMakeFiles/coursework.dir/figures/rectangle/rectange.cpp.o" \
+"CMakeFiles/coursework.dir/figures/hexagon/hexagon.cpp.o" \
+"CMakeFiles/coursework.dir/figures/line/line.cpp.o" \
+"CMakeFiles/coursework.dir/figures/parallelepiped/parallelepiped.cpp.o" \
+"CMakeFiles/coursework.dir/figures/rectangle/rectangle.cpp.o" \
+"CMakeFiles/coursework.dir/figures/rectangleOval/rectangleOval.cpp.o" \
 "CMakeFiles/coursework.dir/figures/rhomb/rhomb.cpp.o" \
 "CMakeFiles/coursework.dir/main.cpp.o" \
 "CMakeFiles/coursework.dir/main_window/main_window.cpp.o" \
 "CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.o" \
 "CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.o" \
 "CMakeFiles/coursework.dir/randomPoints/randomPoints.cpp.o" \
+"CMakeFiles/coursework.dir/text/text.cpp.o" \
 "CMakeFiles/coursework.dir/coursework_autogen/EWIEGA46WW/qrc_resource.cpp.o"
 
 # External object files for target coursework
 coursework_EXTERNAL_OBJECTS =
 
 coursework: CMakeFiles/coursework.dir/coursework_autogen/mocs_compilation.cpp.o
+coursework: CMakeFiles/coursework.dir/figures/arrow/arrow.cpp.o
 coursework: CMakeFiles/coursework.dir/figures/figure/figure.cpp.o
-coursework: CMakeFiles/coursework.dir/figures/rectangle/rectange.cpp.o
+coursework: CMakeFiles/coursework.dir/figures/hexagon/hexagon.cpp.o
+coursework: CMakeFiles/coursework.dir/figures/line/line.cpp.o
+coursework: CMakeFiles/coursework.dir/figures/parallelepiped/parallelepiped.cpp.o
+coursework: CMakeFiles/coursework.dir/figures/rectangle/rectangle.cpp.o
+coursework: CMakeFiles/coursework.dir/figures/rectangleOval/rectangleOval.cpp.o
 coursework: CMakeFiles/coursework.dir/figures/rhomb/rhomb.cpp.o
 coursework: CMakeFiles/coursework.dir/main.cpp.o
 coursework: CMakeFiles/coursework.dir/main_window/main_window.cpp.o
 coursework: CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.o
 coursework: CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.o
 coursework: CMakeFiles/coursework.dir/randomPoints/randomPoints.cpp.o
+coursework: CMakeFiles/coursework.dir/text/text.cpp.o
 coursework: CMakeFiles/coursework.dir/coursework_autogen/EWIEGA46WW/qrc_resource.cpp.o
 coursework: CMakeFiles/coursework.dir/build.make
 coursework: /usr/lib64/libQt5Widgets.so.5.15.7
@@ -254,7 +350,7 @@ coursework: /usr/lib64/libQt5Test.so.5.15.7
 coursework: /usr/lib64/libQt5Gui.so.5.15.7
 coursework: /usr/lib64/libQt5Core.so.5.15.7
 coursework: CMakeFiles/coursework.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable coursework"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable coursework"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/coursework.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -266,6 +362,6 @@ CMakeFiles/coursework.dir/clean:
 .PHONY : CMakeFiles/coursework.dir/clean
 
 CMakeFiles/coursework.dir/depend: coursework_autogen/EWIEGA46WW/qrc_resource.cpp
-	cd /home/mr-geri/Проекты/c/two_course/coursework && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mr-geri/projects/c/two_course/coursework /home/mr-geri/projects/c/two_course/coursework /home/mr-geri/Проекты/c/two_course/coursework /home/mr-geri/Проекты/c/two_course/coursework /home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles/coursework.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mr-geri/Проекты/c/two_course/coursework && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mr-geri/Проекты/c/two_course/coursework /home/mr-geri/Проекты/c/two_course/coursework /home/mr-geri/Проекты/c/two_course/coursework /home/mr-geri/Проекты/c/two_course/coursework /home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles/coursework.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/coursework.dir/depend
 

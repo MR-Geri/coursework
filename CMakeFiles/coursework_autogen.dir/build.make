@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mr-geri/projects/c/two_course/coursework
+CMAKE_SOURCE_DIR = /home/mr-geri/Проекты/c/two_course/coursework
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/mr-geri/Проекты/c/two_course/coursework
@@ -83,6 +83,6 @@ CMakeFiles/coursework_autogen.dir/clean:
 .PHONY : CMakeFiles/coursework_autogen.dir/clean
 
 CMakeFiles/coursework_autogen.dir/depend:
-	cd /home/mr-geri/Проекты/c/two_course/coursework && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mr-geri/projects/c/two_course/coursework /home/mr-geri/projects/c/two_course/coursework /home/mr-geri/Проекты/c/two_course/coursework /home/mr-geri/Проекты/c/two_course/coursework /home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles/coursework_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mr-geri/Проекты/c/two_course/coursework && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mr-geri/Проекты/c/two_course/coursework /home/mr-geri/Проекты/c/two_course/coursework /home/mr-geri/Проекты/c/two_course/coursework /home/mr-geri/Проекты/c/two_course/coursework /home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles/coursework_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/coursework_autogen.dir/depend
 

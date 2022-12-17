@@ -21,4 +21,6 @@ protected:
 
 private:
   constants::Items currentItem;
+  bool flag_move = false;
+  QPointF offset;
 };

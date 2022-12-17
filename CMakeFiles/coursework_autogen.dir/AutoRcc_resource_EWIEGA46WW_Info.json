@@ -2,18 +2,18 @@
 	"BUILD_DIR" : "/home/mr-geri/\u041f\u0440\u043e\u0435\u043a\u0442\u044b/c/two_course/coursework/coursework_autogen",
 	"CMAKE_BINARY_DIR" : "/home/mr-geri/\u041f\u0440\u043e\u0435\u043a\u0442\u044b/c/two_course/coursework",
 	"CMAKE_CURRENT_BINARY_DIR" : "/home/mr-geri/\u041f\u0440\u043e\u0435\u043a\u0442\u044b/c/two_course/coursework",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/mr-geri/projects/c/two_course/coursework",
-	"CMAKE_SOURCE_DIR" : "/home/mr-geri/projects/c/two_course/coursework",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/mr-geri/\u041f\u0440\u043e\u0435\u043a\u0442\u044b/c/two_course/coursework",
+	"CMAKE_SOURCE_DIR" : "/home/mr-geri/\u041f\u0440\u043e\u0435\u043a\u0442\u044b/c/two_course/coursework",
 	"INCLUDE_DIR" : "/home/mr-geri/\u041f\u0440\u043e\u0435\u043a\u0442\u044b/c/two_course/coursework/coursework_autogen/include",
 	"INPUTS" : 
 	[
-		"/home/mr-geri/projects/c/two_course/coursework/icons/parallelepiped.png",
-		"/home/mr-geri/projects/c/two_course/coursework/icons/hexagon.png",
-		"/home/mr-geri/projects/c/two_course/coursework/icons/rectangle_oval.png",
-		"/home/mr-geri/projects/c/two_course/coursework/icons/rhomb.png",
-		"/home/mr-geri/projects/c/two_course/coursework/icons/line.png",
-		"/home/mr-geri/projects/c/two_course/coursework/icons/rectangle.png",
-		"/home/mr-geri/projects/c/two_course/coursework/icons/arrow.png"
+		"/home/mr-geri/\u041f\u0440\u043e\u0435\u043a\u0442\u044b/c/two_course/coursework/icons/parallelepiped.png",
+		"/home/mr-geri/\u041f\u0440\u043e\u0435\u043a\u0442\u044b/c/two_course/coursework/icons/hexagon.png",
+		"/home/mr-geri/\u041f\u0440\u043e\u0435\u043a\u0442\u044b/c/two_course/coursework/icons/rectangle_oval.png",
+		"/home/mr-geri/\u041f\u0440\u043e\u0435\u043a\u0442\u044b/c/two_course/coursework/icons/rhomb.png",
+		"/home/mr-geri/\u041f\u0440\u043e\u0435\u043a\u0442\u044b/c/two_course/coursework/icons/line.png",
+		"/home/mr-geri/\u041f\u0440\u043e\u0435\u043a\u0442\u044b/c/two_course/coursework/icons/rectangle.png",
+		"/home/mr-geri/\u041f\u0440\u043e\u0435\u043a\u0442\u044b/c/two_course/coursework/icons/arrow.png"
 	],
 	"LOCK_FILE" : "/home/mr-geri/\u041f\u0440\u043e\u0435\u043a\u0442\u044b/c/two_course/coursework/CMakeFiles/coursework_autogen.dir/AutoRcc_resource_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,
@@ -23,6 +23,6 @@
 	"RCC_EXECUTABLE" : "/usr/lib64/qt5/bin/rcc",
 	"RCC_LIST_OPTIONS" : [ "--list" ],
 	"SETTINGS_FILE" : "/home/mr-geri/\u041f\u0440\u043e\u0435\u043a\u0442\u044b/c/two_course/coursework/CMakeFiles/coursework_autogen.dir/AutoRcc_resource_EWIEGA46WW_Used.txt",
-	"SOURCE" : "/home/mr-geri/projects/c/two_course/coursework/resource.qrc",
+	"SOURCE" : "/home/mr-geri/\u041f\u0440\u043e\u0435\u043a\u0442\u044b/c/two_course/coursework/resource.qrc",
 	"VERBOSITY" : 0
 }

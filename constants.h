@@ -3,6 +3,7 @@
 
 namespace constants {
 enum Items {
+  None,
   Rhomb,
   Rectangle,
   RectangleOval,
