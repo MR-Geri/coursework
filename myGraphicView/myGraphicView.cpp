@@ -52,49 +52,14 @@ void MyGraphicView::slotAlarmTimer() {
    * */
   scene->setSceneRect(0, 0, width, height);
 
-  /* Приступаем к отрисовке произвольной картинки
-   * */
-  QPen penBlack(Qt::black); // Задаём чёрную кисть
   QPen penRed(Qt::red);     // Задаём красную кисть
 
-  /* Нарисуем черный прямоугольник
-   * */
-  group_1->addToGroup(scene->addLine(20, 20, width - 20, 20, penBlack));
+  group_1->addToGroup(scene->addLine(20, 20, width - 20, 20, penRed));
   group_1->addToGroup(
-      scene->addLine(width - 20, 20, width - 20, height - 20, penBlack));
+      scene->addLine(width - 20, 20, width - 20, height - 20, penRed));
   group_1->addToGroup(
-      scene->addLine(width - 20, height - 20, 20, height - 20, penBlack));
-  group_1->addToGroup(scene->addLine(20, height - 20, 20, 20, penBlack));
-
-  /* Нарисуем красный квадрат
-   * */
-  int sideOfSquare = (height > width) ? (width - 60) : (height - 60);
-  int centerOfWidget_X = width / 2;
-  int centerOfWidget_Y = height / 2;
-
-  group_2->addToGroup(scene->addLine(centerOfWidget_X - (sideOfSquare / 2),
-                                     centerOfWidget_Y - (sideOfSquare / 2),
-                                     centerOfWidget_X + (sideOfSquare / 2),
-                                     centerOfWidget_Y - (sideOfSquare / 2),
-                                     penRed));
-
-  group_2->addToGroup(scene->addLine(centerOfWidget_X + (sideOfSquare / 2),
-                                     centerOfWidget_Y - (sideOfSquare / 2),
-                                     centerOfWidget_X + (sideOfSquare / 2),
-                                     centerOfWidget_Y + (sideOfSquare / 2),
-                                     penRed));
-
-  group_2->addToGroup(scene->addLine(centerOfWidget_X + (sideOfSquare / 2),
-                                     centerOfWidget_Y + (sideOfSquare / 2),
-                                     centerOfWidget_X - (sideOfSquare / 2),
-                                     centerOfWidget_Y + (sideOfSquare / 2),
-                                     penRed));
-
-  group_2->addToGroup(scene->addLine(centerOfWidget_X - (sideOfSquare / 2),
-                                     centerOfWidget_Y + (sideOfSquare / 2),
-                                     centerOfWidget_X - (sideOfSquare / 2),
-                                     centerOfWidget_Y - (sideOfSquare / 2),
-                                     penRed));
+      scene->addLine(width - 20, height - 20, 20, height - 20, penRed));
+  group_1->addToGroup(scene->addLine(20, height - 20, 20, 20, penRed));
 }
 
 /* Этим методом перехватываем событие изменения размера виджет

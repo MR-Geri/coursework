@@ -38,8 +38,8 @@ void myGraphicsScene::mousePressEvent(QGraphicsSceneMouseEvent *event) {
       int end_x = std::max(fig->startPoint().x(), fig->endPoint().x());
       int end_y = std::max(fig->startPoint().y(), fig->endPoint().y());
 
-      if (end_x > mouse_x && mouse_x > start_x && end_y > mouse_y &&
-          mouse_y > start_y) {
+      if (end_x >= mouse_x - 5 && mouse_x >= start_x - 5 && end_y >= mouse_y - 5 &&
+          mouse_y >= start_y - 5) {
         flag_move = true;
         offset = event->scenePos();
         m_activeItem = fig;
@@ -49,7 +49,12 @@ void myGraphicsScene::mousePressEvent(QGraphicsSceneMouseEvent *event) {
   }
 
   if (flag_move) {
-
+    if (event->button() == Qt::RightButton) {
+      delete m_activeItem->text;
+      delete m_activeItem;
+      this->update(QRectF(0, 0, this->width(), this->height()));
+      return;
+    }
   } else {
     switch (currentItem) {
     case constants::Rhomb:
