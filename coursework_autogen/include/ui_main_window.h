@@ -18,7 +18,7 @@
 #include <QtWidgets/QScrollArea>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
-#include "myGraphicView/myGraphicView.h"
+#include "myGraphicsView/myGraphicsView.h"
 
 QT_BEGIN_NAMESPACE
 
@@ -27,7 +27,7 @@ class Ui_MainWindow
 public:
     QWidget *centralwidget;
     QGridLayout *gridLayout;
-    MyGraphicView *graphicsView;
+    myGraphicsView *graphicsView;
     QScrollArea *scrollArea;
     QWidget *scrollAreaWidgetContents_2;
     QVBoxLayout *verticalLayout;
@@ -49,7 +49,7 @@ public:
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         gridLayout = new QGridLayout(centralwidget);
         gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
-        graphicsView = new MyGraphicView(centralwidget);
+        graphicsView = new myGraphicsView(centralwidget);
         graphicsView->setObjectName(QString::fromUtf8("graphicsView"));
         graphicsView->setMinimumSize(QSize(256, 256));
 
@@ -66,7 +66,7 @@ public:
         scrollArea->setWidgetResizable(true);
         scrollAreaWidgetContents_2 = new QWidget();
         scrollAreaWidgetContents_2->setObjectName(QString::fromUtf8("scrollAreaWidgetContents_2"));
-        scrollAreaWidgetContents_2->setGeometry(QRect(0, -560, 149, 1056));
+        scrollAreaWidgetContents_2->setGeometry(QRect(0, 0, 149, 1056));
         QSizePolicy sizePolicy1(QSizePolicy::Ignored, QSizePolicy::Minimum);
         sizePolicy1.setHorizontalStretch(0);
         sizePolicy1.setVerticalStretch(0);

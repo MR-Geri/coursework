@@ -6,7 +6,7 @@
 #include <QVector>
 #include <constants.h>
 
-#include <myGraphicView/myGraphicView.h>
+#include <myGraphicsView/myGraphicsView.h>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {

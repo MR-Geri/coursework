@@ -22,8 +22,8 @@ file(GLOB coursework_src CONFIGURE_DEPENDS
   "text/*.cpp" "text/*.h" "text/*.ui"
   "randomPoints/*.cpp" "randomPoints/*.h" "randomPoints/*.ui"
   "figures/*/*.cpp" "figures/*/*.h" "figures/*/*.ui"
-  "myGraphicScene/*.cpp" "myGraphicScene/*.h" "myGraphicScene/*.ui"
-  "myGraphicView/*.cpp" "myGraphicView/*.h" "myGraphicView/*.ui"
+  "myGraphicsScene/*.cpp" "myGraphicsScene/*.h" "myGraphicsScene/*.ui"
+  "myGraphicsView/*.cpp" "myGraphicsView/*.h" "myGraphicsView/*.ui"
   "main_window/*.cpp" "main_window/*.h" "main_window/*.ui"
   # "*/*/*.cpp" "*/*/*.h" "*/*/*.ui"
 )

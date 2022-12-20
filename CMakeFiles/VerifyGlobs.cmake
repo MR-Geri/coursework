@@ -105,9 +105,9 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # coursework_src at CMakeLists.txt:19 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/mr-geri/Проекты/c/two_course/coursework/myGraphicScene/*.cpp")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/mr-geri/Проекты/c/two_course/coursework/myGraphicsScene/*.cpp")
 set(OLD_GLOB
-  "/home/mr-geri/Проекты/c/two_course/coursework/myGraphicScene/myGraphicScene.cpp"
+  "/home/mr-geri/Проекты/c/two_course/coursework/myGraphicsScene/myGraphicsScene.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -115,9 +115,9 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # coursework_src at CMakeLists.txt:19 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/mr-geri/Проекты/c/two_course/coursework/myGraphicScene/*.h")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/mr-geri/Проекты/c/two_course/coursework/myGraphicsScene/*.h")
 set(OLD_GLOB
-  "/home/mr-geri/Проекты/c/two_course/coursework/myGraphicScene/myGraphicScene.h"
+  "/home/mr-geri/Проекты/c/two_course/coursework/myGraphicsScene/myGraphicsScene.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -125,7 +125,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # coursework_src at CMakeLists.txt:19 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/mr-geri/Проекты/c/two_course/coursework/myGraphicScene/*.ui")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/mr-geri/Проекты/c/two_course/coursework/myGraphicsScene/*.ui")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
@@ -134,9 +134,9 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # coursework_src at CMakeLists.txt:19 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/mr-geri/Проекты/c/two_course/coursework/myGraphicView/*.cpp")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/mr-geri/Проекты/c/two_course/coursework/myGraphicsView/*.cpp")
 set(OLD_GLOB
-  "/home/mr-geri/Проекты/c/two_course/coursework/myGraphicView/myGraphicView.cpp"
+  "/home/mr-geri/Проекты/c/two_course/coursework/myGraphicsView/myGraphicsView.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -144,9 +144,9 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # coursework_src at CMakeLists.txt:19 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/mr-geri/Проекты/c/two_course/coursework/myGraphicView/*.h")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/mr-geri/Проекты/c/two_course/coursework/myGraphicsView/*.h")
 set(OLD_GLOB
-  "/home/mr-geri/Проекты/c/two_course/coursework/myGraphicView/myGraphicView.h"
+  "/home/mr-geri/Проекты/c/two_course/coursework/myGraphicsView/myGraphicsView.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -154,7 +154,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # coursework_src at CMakeLists.txt:19 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/mr-geri/Проекты/c/two_course/coursework/myGraphicView/*.ui")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/mr-geri/Проекты/c/two_course/coursework/myGraphicsView/*.ui")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")

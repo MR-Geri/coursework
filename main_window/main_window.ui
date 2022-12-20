@@ -22,7 +22,7 @@
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout" columnstretch="0,0">
     <item row="0" column="1">
-     <widget class="MyGraphicView" name="graphicsView">
+     <widget class="myGraphicsView" name="graphicsView">
       <property name="minimumSize">
        <size>
         <width>256</width>
@@ -49,7 +49,7 @@
        <property name="geometry">
         <rect>
          <x>0</x>
-         <y>-560</y>
+         <y>0</y>
          <width>149</width>
          <height>1056</height>
         </rect>
@@ -231,9 +231,9 @@
  </widget>
  <customwidgets>
   <customwidget>
-   <class>MyGraphicView</class>
+   <class>myGraphicsView</class>
    <extends>QGraphicsView</extends>
-   <header>myGraphicView/myGraphicView.h</header>
+   <header>myGraphicsView/myGraphicsView.h</header>
   </customwidget>
  </customwidgets>
  <resources>

@@ -203,15 +203,15 @@
 			null
 		],
 		[
-			"/home/mr-geri/\u041f\u0440\u043e\u0435\u043a\u0442\u044b/c/two_course/coursework/myGraphicScene/myGraphicScene.h",
+			"/home/mr-geri/\u041f\u0440\u043e\u0435\u043a\u0442\u044b/c/two_course/coursework/myGraphicsScene/myGraphicsScene.h",
 			"MU",
-			"OIYP2VNH46/moc_myGraphicScene.cpp",
+			"XOEUU6UFBV/moc_myGraphicsScene.cpp",
 			null
 		],
 		[
-			"/home/mr-geri/\u041f\u0440\u043e\u0435\u043a\u0442\u044b/c/two_course/coursework/myGraphicView/myGraphicView.h",
+			"/home/mr-geri/\u041f\u0440\u043e\u0435\u043a\u0442\u044b/c/two_course/coursework/myGraphicsView/myGraphicsView.h",
 			"MU",
-			"VCNREXAN4N/moc_myGraphicView.cpp",
+			"GG7VQ6K56N/moc_myGraphicsView.cpp",
 			null
 		],
 		[
@@ -336,12 +336,12 @@
 			null
 		],
 		[
-			"/home/mr-geri/\u041f\u0440\u043e\u0435\u043a\u0442\u044b/c/two_course/coursework/myGraphicScene/myGraphicScene.cpp",
+			"/home/mr-geri/\u041f\u0440\u043e\u0435\u043a\u0442\u044b/c/two_course/coursework/myGraphicsScene/myGraphicsScene.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/mr-geri/\u041f\u0440\u043e\u0435\u043a\u0442\u044b/c/two_course/coursework/myGraphicView/myGraphicView.cpp",
+			"/home/mr-geri/\u041f\u0440\u043e\u0435\u043a\u0442\u044b/c/two_course/coursework/myGraphicsView/myGraphicsView.cpp",
 			"MU",
 			null
 		],

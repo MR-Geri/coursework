@@ -236,33 +236,33 @@ CMakeFiles/coursework.dir/main_window/main_window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursework.dir/main_window/main_window.cpp.s"
 	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mr-geri/Проекты/c/two_course/coursework/main_window/main_window.cpp -o CMakeFiles/coursework.dir/main_window/main_window.cpp.s
 
-CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.o: CMakeFiles/coursework.dir/flags.make
-CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.o: myGraphicScene/myGraphicScene.cpp
-CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.o: CMakeFiles/coursework.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.o"
-	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.o -MF CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.o.d -o CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.o -c /home/mr-geri/Проекты/c/two_course/coursework/myGraphicScene/myGraphicScene.cpp
+CMakeFiles/coursework.dir/myGraphicsScene/myGraphicsScene.cpp.o: CMakeFiles/coursework.dir/flags.make
+CMakeFiles/coursework.dir/myGraphicsScene/myGraphicsScene.cpp.o: myGraphicsScene/myGraphicsScene.cpp
+CMakeFiles/coursework.dir/myGraphicsScene/myGraphicsScene.cpp.o: CMakeFiles/coursework.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/coursework.dir/myGraphicsScene/myGraphicsScene.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework.dir/myGraphicsScene/myGraphicsScene.cpp.o -MF CMakeFiles/coursework.dir/myGraphicsScene/myGraphicsScene.cpp.o.d -o CMakeFiles/coursework.dir/myGraphicsScene/myGraphicsScene.cpp.o -c /home/mr-geri/Проекты/c/two_course/coursework/myGraphicsScene/myGraphicsScene.cpp
 
-CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.i"
-	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mr-geri/Проекты/c/two_course/coursework/myGraphicScene/myGraphicScene.cpp > CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.i
+CMakeFiles/coursework.dir/myGraphicsScene/myGraphicsScene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursework.dir/myGraphicsScene/myGraphicsScene.cpp.i"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mr-geri/Проекты/c/two_course/coursework/myGraphicsScene/myGraphicsScene.cpp > CMakeFiles/coursework.dir/myGraphicsScene/myGraphicsScene.cpp.i
 
-CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.s"
-	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mr-geri/Проекты/c/two_course/coursework/myGraphicScene/myGraphicScene.cpp -o CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.s
+CMakeFiles/coursework.dir/myGraphicsScene/myGraphicsScene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursework.dir/myGraphicsScene/myGraphicsScene.cpp.s"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mr-geri/Проекты/c/two_course/coursework/myGraphicsScene/myGraphicsScene.cpp -o CMakeFiles/coursework.dir/myGraphicsScene/myGraphicsScene.cpp.s
 
-CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.o: CMakeFiles/coursework.dir/flags.make
-CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.o: myGraphicView/myGraphicView.cpp
-CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.o: CMakeFiles/coursework.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.o"
-	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.o -MF CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.o.d -o CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.o -c /home/mr-geri/Проекты/c/two_course/coursework/myGraphicView/myGraphicView.cpp
+CMakeFiles/coursework.dir/myGraphicsView/myGraphicsView.cpp.o: CMakeFiles/coursework.dir/flags.make
+CMakeFiles/coursework.dir/myGraphicsView/myGraphicsView.cpp.o: myGraphicsView/myGraphicsView.cpp
+CMakeFiles/coursework.dir/myGraphicsView/myGraphicsView.cpp.o: CMakeFiles/coursework.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mr-geri/Проекты/c/two_course/coursework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/coursework.dir/myGraphicsView/myGraphicsView.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coursework.dir/myGraphicsView/myGraphicsView.cpp.o -MF CMakeFiles/coursework.dir/myGraphicsView/myGraphicsView.cpp.o.d -o CMakeFiles/coursework.dir/myGraphicsView/myGraphicsView.cpp.o -c /home/mr-geri/Проекты/c/two_course/coursework/myGraphicsView/myGraphicsView.cpp
 
-CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.i"
-	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mr-geri/Проекты/c/two_course/coursework/myGraphicView/myGraphicView.cpp > CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.i
+CMakeFiles/coursework.dir/myGraphicsView/myGraphicsView.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursework.dir/myGraphicsView/myGraphicsView.cpp.i"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mr-geri/Проекты/c/two_course/coursework/myGraphicsView/myGraphicsView.cpp > CMakeFiles/coursework.dir/myGraphicsView/myGraphicsView.cpp.i
 
-CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.s"
-	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mr-geri/Проекты/c/two_course/coursework/myGraphicView/myGraphicView.cpp -o CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.s
+CMakeFiles/coursework.dir/myGraphicsView/myGraphicsView.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursework.dir/myGraphicsView/myGraphicsView.cpp.s"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mr-geri/Проекты/c/two_course/coursework/myGraphicsView/myGraphicsView.cpp -o CMakeFiles/coursework.dir/myGraphicsView/myGraphicsView.cpp.s
 
 CMakeFiles/coursework.dir/randomPoints/randomPoints.cpp.o: CMakeFiles/coursework.dir/flags.make
 CMakeFiles/coursework.dir/randomPoints/randomPoints.cpp.o: randomPoints/randomPoints.cpp
@@ -319,8 +319,8 @@ coursework_OBJECTS = \
 "CMakeFiles/coursework.dir/figures/rhomb/rhomb.cpp.o" \
 "CMakeFiles/coursework.dir/main.cpp.o" \
 "CMakeFiles/coursework.dir/main_window/main_window.cpp.o" \
-"CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.o" \
-"CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.o" \
+"CMakeFiles/coursework.dir/myGraphicsScene/myGraphicsScene.cpp.o" \
+"CMakeFiles/coursework.dir/myGraphicsView/myGraphicsView.cpp.o" \
 "CMakeFiles/coursework.dir/randomPoints/randomPoints.cpp.o" \
 "CMakeFiles/coursework.dir/text/text.cpp.o" \
 "CMakeFiles/coursework.dir/coursework_autogen/EWIEGA46WW/qrc_resource.cpp.o"
@@ -339,8 +339,8 @@ coursework: CMakeFiles/coursework.dir/figures/rectangleOval/rectangleOval.cpp.o
 coursework: CMakeFiles/coursework.dir/figures/rhomb/rhomb.cpp.o
 coursework: CMakeFiles/coursework.dir/main.cpp.o
 coursework: CMakeFiles/coursework.dir/main_window/main_window.cpp.o
-coursework: CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.o
-coursework: CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.o
+coursework: CMakeFiles/coursework.dir/myGraphicsScene/myGraphicsScene.cpp.o
+coursework: CMakeFiles/coursework.dir/myGraphicsView/myGraphicsView.cpp.o
 coursework: CMakeFiles/coursework.dir/randomPoints/randomPoints.cpp.o
 coursework: CMakeFiles/coursework.dir/text/text.cpp.o
 coursework: CMakeFiles/coursework.dir/coursework_autogen/EWIEGA46WW/qrc_resource.cpp.o

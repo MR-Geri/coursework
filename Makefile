@@ -476,53 +476,53 @@ main_window/main_window.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/main_window/main_window.cpp.s
 .PHONY : main_window/main_window.cpp.s
 
-myGraphicScene/myGraphicScene.o: myGraphicScene/myGraphicScene.cpp.o
-.PHONY : myGraphicScene/myGraphicScene.o
+myGraphicsScene/myGraphicsScene.o: myGraphicsScene/myGraphicsScene.cpp.o
+.PHONY : myGraphicsScene/myGraphicsScene.o
 
 # target to build an object file
-myGraphicScene/myGraphicScene.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.o
-.PHONY : myGraphicScene/myGraphicScene.cpp.o
+myGraphicsScene/myGraphicsScene.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/myGraphicsScene/myGraphicsScene.cpp.o
+.PHONY : myGraphicsScene/myGraphicsScene.cpp.o
 
-myGraphicScene/myGraphicScene.i: myGraphicScene/myGraphicScene.cpp.i
-.PHONY : myGraphicScene/myGraphicScene.i
+myGraphicsScene/myGraphicsScene.i: myGraphicsScene/myGraphicsScene.cpp.i
+.PHONY : myGraphicsScene/myGraphicsScene.i
 
 # target to preprocess a source file
-myGraphicScene/myGraphicScene.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.i
-.PHONY : myGraphicScene/myGraphicScene.cpp.i
+myGraphicsScene/myGraphicsScene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/myGraphicsScene/myGraphicsScene.cpp.i
+.PHONY : myGraphicsScene/myGraphicsScene.cpp.i
 
-myGraphicScene/myGraphicScene.s: myGraphicScene/myGraphicScene.cpp.s
-.PHONY : myGraphicScene/myGraphicScene.s
+myGraphicsScene/myGraphicsScene.s: myGraphicsScene/myGraphicsScene.cpp.s
+.PHONY : myGraphicsScene/myGraphicsScene.s
 
 # target to generate assembly for a file
-myGraphicScene/myGraphicScene.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.s
-.PHONY : myGraphicScene/myGraphicScene.cpp.s
+myGraphicsScene/myGraphicsScene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/myGraphicsScene/myGraphicsScene.cpp.s
+.PHONY : myGraphicsScene/myGraphicsScene.cpp.s
 
-myGraphicView/myGraphicView.o: myGraphicView/myGraphicView.cpp.o
-.PHONY : myGraphicView/myGraphicView.o
+myGraphicsView/myGraphicsView.o: myGraphicsView/myGraphicsView.cpp.o
+.PHONY : myGraphicsView/myGraphicsView.o
 
 # target to build an object file
-myGraphicView/myGraphicView.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.o
-.PHONY : myGraphicView/myGraphicView.cpp.o
+myGraphicsView/myGraphicsView.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/myGraphicsView/myGraphicsView.cpp.o
+.PHONY : myGraphicsView/myGraphicsView.cpp.o
 
-myGraphicView/myGraphicView.i: myGraphicView/myGraphicView.cpp.i
-.PHONY : myGraphicView/myGraphicView.i
+myGraphicsView/myGraphicsView.i: myGraphicsView/myGraphicsView.cpp.i
+.PHONY : myGraphicsView/myGraphicsView.i
 
 # target to preprocess a source file
-myGraphicView/myGraphicView.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.i
-.PHONY : myGraphicView/myGraphicView.cpp.i
+myGraphicsView/myGraphicsView.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/myGraphicsView/myGraphicsView.cpp.i
+.PHONY : myGraphicsView/myGraphicsView.cpp.i
 
-myGraphicView/myGraphicView.s: myGraphicView/myGraphicView.cpp.s
-.PHONY : myGraphicView/myGraphicView.s
+myGraphicsView/myGraphicsView.s: myGraphicsView/myGraphicsView.cpp.s
+.PHONY : myGraphicsView/myGraphicsView.s
 
 # target to generate assembly for a file
-myGraphicView/myGraphicView.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.s
-.PHONY : myGraphicView/myGraphicView.cpp.s
+myGraphicsView/myGraphicsView.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/myGraphicsView/myGraphicsView.cpp.s
+.PHONY : myGraphicsView/myGraphicsView.cpp.s
 
 randomPoints/randomPoints.o: randomPoints/randomPoints.cpp.o
 .PHONY : randomPoints/randomPoints.o
@@ -622,12 +622,12 @@ help:
 	@echo "... main_window/main_window.o"
 	@echo "... main_window/main_window.i"
 	@echo "... main_window/main_window.s"
-	@echo "... myGraphicScene/myGraphicScene.o"
-	@echo "... myGraphicScene/myGraphicScene.i"
-	@echo "... myGraphicScene/myGraphicScene.s"
-	@echo "... myGraphicView/myGraphicView.o"
-	@echo "... myGraphicView/myGraphicView.i"
-	@echo "... myGraphicView/myGraphicView.s"
+	@echo "... myGraphicsScene/myGraphicsScene.o"
+	@echo "... myGraphicsScene/myGraphicsScene.i"
+	@echo "... myGraphicsScene/myGraphicsScene.s"
+	@echo "... myGraphicsView/myGraphicsView.o"
+	@echo "... myGraphicsView/myGraphicsView.i"
+	@echo "... myGraphicsView/myGraphicsView.s"
 	@echo "... randomPoints/randomPoints.o"
 	@echo "... randomPoints/randomPoints.i"
 	@echo "... randomPoints/randomPoints.s"

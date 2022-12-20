@@ -20,8 +20,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/mr-geri/Проекты/c/two_course/coursework/figures/rhomb/rhomb.cpp" "CMakeFiles/coursework.dir/figures/rhomb/rhomb.cpp.o" "gcc" "CMakeFiles/coursework.dir/figures/rhomb/rhomb.cpp.o.d"
   "/home/mr-geri/Проекты/c/two_course/coursework/main.cpp" "CMakeFiles/coursework.dir/main.cpp.o" "gcc" "CMakeFiles/coursework.dir/main.cpp.o.d"
   "/home/mr-geri/Проекты/c/two_course/coursework/main_window/main_window.cpp" "CMakeFiles/coursework.dir/main_window/main_window.cpp.o" "gcc" "CMakeFiles/coursework.dir/main_window/main_window.cpp.o.d"
-  "/home/mr-geri/Проекты/c/two_course/coursework/myGraphicScene/myGraphicScene.cpp" "CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.o" "gcc" "CMakeFiles/coursework.dir/myGraphicScene/myGraphicScene.cpp.o.d"
-  "/home/mr-geri/Проекты/c/two_course/coursework/myGraphicView/myGraphicView.cpp" "CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.o" "gcc" "CMakeFiles/coursework.dir/myGraphicView/myGraphicView.cpp.o.d"
+  "/home/mr-geri/Проекты/c/two_course/coursework/myGraphicsScene/myGraphicsScene.cpp" "CMakeFiles/coursework.dir/myGraphicsScene/myGraphicsScene.cpp.o" "gcc" "CMakeFiles/coursework.dir/myGraphicsScene/myGraphicsScene.cpp.o.d"
+  "/home/mr-geri/Проекты/c/two_course/coursework/myGraphicsView/myGraphicsView.cpp" "CMakeFiles/coursework.dir/myGraphicsView/myGraphicsView.cpp.o" "gcc" "CMakeFiles/coursework.dir/myGraphicsView/myGraphicsView.cpp.o.d"
   "/home/mr-geri/Проекты/c/two_course/coursework/randomPoints/randomPoints.cpp" "CMakeFiles/coursework.dir/randomPoints/randomPoints.cpp.o" "gcc" "CMakeFiles/coursework.dir/randomPoints/randomPoints.cpp.o.d"
   "/home/mr-geri/Проекты/c/two_course/coursework/text/text.cpp" "CMakeFiles/coursework.dir/text/text.cpp.o" "gcc" "CMakeFiles/coursework.dir/text/text.cpp.o.d"
   )

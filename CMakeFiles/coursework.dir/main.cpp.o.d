@@ -234,7 +234,7 @@ CMakeFiles/coursework.dir/main.cpp.o: \
  /usr/include/qt5/QtCore/qstring.h /usr/include/qt5/QtCore/QVector \
  /usr/include/qt5/QtCore/qvector.h \
  /home/mr-geri/Проекты/c/two_course/coursework/constants.h \
- /home/mr-geri/Проекты/c/two_course/coursework/myGraphicView/myGraphicView.h \
+ /home/mr-geri/Проекты/c/two_course/coursework/myGraphicsView/myGraphicsView.h \
  /usr/include/qt5/QtWidgets/QGraphicsItemGroup \
  /usr/include/qt5/QtWidgets/qgraphicsitem.h \
  /usr/include/qt5/QtCore/qvariant.h /usr/include/qt5/QtCore/qmap.h \
@@ -250,16 +250,33 @@ CMakeFiles/coursework.dir/main.cpp.o: \
  /usr/include/qt5/QtCore/QTimer /usr/include/qt5/QtCore/qtimer.h \
  /usr/include/qt5/QtCore/qbasictimer.h /usr/include/qt5/QtWidgets/QWidget \
  /usr/include/qt5/QtWidgets/qwidget.h \
- /home/mr-geri/Проекты/c/two_course/coursework/myGraphicScene/myGraphicScene.h \
+ /home/mr-geri/Проекты/c/two_course/coursework/myGraphicsScene/myGraphicsScene.h \
+ /home/mr-geri/Проекты/c/two_course/coursework/randomPoints/randomPoints.h \
+ /usr/include/qt5/QtCore/QPoint /usr/include/qt5/QtCore/qpoint.h \
+ /usr/include/qt5/QtWidgets/QGraphicsEllipseItem \
+ /usr/include/qt5/QtWidgets/QGraphicsSceneMouseEvent \
+ /usr/include/qt5/QtWidgets/qgraphicssceneevent.h \
+ /usr/include/qt5/QtCore/qcoreevent.h /usr/include/qt5/QtCore/qset.h \
+ /usr/include/qt5/QtGui/QKeyEvent /usr/include/qt5/QtGui/qevent.h \
+ /usr/include/qt5/QtCore/qurl.h /usr/include/qt5/QtCore/qfile.h \
+ /usr/include/qt5/QtCore/qfiledevice.h /usr/include/qt5/QtGui/qvector2d.h \
+ /usr/include/qt5/QtGui/qtouchdevice.h /usr/include/c++/12/iostream \
+ /usr/include/c++/12/ostream /usr/include/c++/12/ios \
+ /usr/include/c++/12/bits/basic_ios.h \
+ /usr/include/c++/12/bits/locale_facets.h /usr/include/c++/12/cwctype \
+ /usr/include/wctype.h /usr/include/bits/wctype-wchar.h \
+ /usr/include/c++/12/x86_64-redhat-linux/bits/ctype_base.h \
+ /usr/include/c++/12/x86_64-redhat-linux/bits/ctype_inline.h \
+ /usr/include/c++/12/bits/locale_facets.tcc \
+ /usr/include/c++/12/bits/basic_ios.tcc \
+ /usr/include/c++/12/bits/ostream.tcc /usr/include/c++/12/istream \
+ /usr/include/c++/12/bits/istream.tcc \
+ /usr/include/qt5/QtCore/qnamespace.h \
  /home/mr-geri/Проекты/c/two_course/coursework/figures/figure/figure.h \
  /usr/include/qt5/QtCore/QDebug /usr/include/qt5/QtCore/qdebug.h \
  /usr/include/qt5/QtCore/qtextstream.h /usr/include/qt5/QtCore/qlocale.h \
- /usr/include/qt5/QtCore/qset.h \
  /usr/include/qt5/QtCore/qcontiguouscache.h \
- /usr/include/qt5/QtWidgets/QGraphicsItem \
- /usr/include/qt5/QtWidgets/QGraphicsSceneMouseEvent \
- /usr/include/qt5/QtWidgets/qgraphicssceneevent.h \
- /usr/include/qt5/QtCore/qcoreevent.h /usr/include/qt5/QtCore/QObject \
+ /usr/include/qt5/QtWidgets/QGraphicsItem /usr/include/qt5/QtCore/QObject \
  /usr/include/qt5/QtCore/qobject.h /usr/include/qt5/QtGui/QPainter \
  /usr/include/qt5/QtGui/qpainter.h /usr/include/qt5/QtGui/QCursor \
  /usr/include/qt5/QtGui/qcursor.h \
@@ -271,5 +288,29 @@ CMakeFiles/coursework.dir/main.cpp.o: \
  /usr/include/qt5/QtCore/qeventloop.h \
  /usr/include/qt5/QtGui/qguiapplication.h \
  /usr/include/qt5/QtGui/qinputmethod.h \
- /home/mr-geri/Проекты/c/two_course/coursework/randomPoints/randomPoints.h \
- /usr/include/qt5/QtCore/QPoint /usr/include/qt5/QtCore/qpoint.h
+ /home/mr-geri/Проекты/c/two_course/coursework/figures/arrow/arrow.h \
+ /usr/include/c++/12/cmath /usr/include/math.h \
+ /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
+ /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
+ /usr/include/bits/fp-fast.h \
+ /usr/include/bits/mathcalls-helper-functions.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
+ /usr/include/bits/iscanonical.h /usr/include/c++/12/bits/specfun.h \
+ /usr/include/c++/12/tr1/gamma.tcc \
+ /usr/include/c++/12/tr1/special_function_util.h \
+ /usr/include/c++/12/tr1/bessel_function.tcc \
+ /usr/include/c++/12/tr1/beta_function.tcc \
+ /usr/include/c++/12/tr1/ell_integral.tcc \
+ /usr/include/c++/12/tr1/exp_integral.tcc \
+ /usr/include/c++/12/tr1/hypergeometric.tcc \
+ /usr/include/c++/12/tr1/legendre_function.tcc \
+ /usr/include/c++/12/tr1/modified_bessel_func.tcc \
+ /usr/include/c++/12/tr1/poly_hermite.tcc \
+ /usr/include/c++/12/tr1/poly_laguerre.tcc \
+ /usr/include/c++/12/tr1/riemann_zeta.tcc \
+ /home/mr-geri/Проекты/c/two_course/coursework/figures/hexagon/hexagon.h \
+ /home/mr-geri/Проекты/c/two_course/coursework/figures/line/line.h \
+ /home/mr-geri/Проекты/c/two_course/coursework/figures/parallelepiped/parallelepiped.h \
+ /home/mr-geri/Проекты/c/two_course/coursework/figures/rectangle/rectangle.h \
+ /home/mr-geri/Проекты/c/two_course/coursework/figures/rectangleOval/rectangleOval.h \
+ /home/mr-geri/Проекты/c/two_course/coursework/figures/rhomb/rhomb.h

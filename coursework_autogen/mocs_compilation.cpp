@@ -8,5 +8,5 @@
 #include "YT6CJFN2A4/moc_rectangleOval.cpp"
 #include "7YTNYDDD2B/moc_rhomb.cpp"
 #include "TXKPOHTVN7/moc_main_window.cpp"
-#include "OIYP2VNH46/moc_myGraphicScene.cpp"
-#include "VCNREXAN4N/moc_myGraphicView.cpp"
+#include "XOEUU6UFBV/moc_myGraphicsScene.cpp"
+#include "GG7VQ6K56N/moc_myGraphicsView.cpp"

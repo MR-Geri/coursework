@@ -297,13 +297,29 @@ CMakeFiles/coursework.dir/coursework_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt5/QtCore/QString /usr/include/qt5/QtCore/qstring.h \
  /usr/include/qt5/QtCore/QVector /usr/include/qt5/QtCore/qvector.h \
  /home/mr-geri/Проекты/c/two_course/coursework/constants.h \
- /home/mr-geri/Проекты/c/two_course/coursework/myGraphicView/myGraphicView.h \
+ /home/mr-geri/Проекты/c/two_course/coursework/myGraphicsView/myGraphicsView.h \
  /usr/include/qt5/QtWidgets/QGraphicsItemGroup \
  /usr/include/qt5/QtCore/QTimer /usr/include/qt5/QtCore/qtimer.h \
  /usr/include/qt5/QtCore/qbasictimer.h /usr/include/qt5/QtWidgets/QWidget \
  /usr/include/qt5/QtWidgets/qwidget.h \
- /home/mr-geri/Проекты/c/two_course/coursework/myGraphicScene/myGraphicScene.h \
+ /home/mr-geri/Проекты/c/two_course/coursework/myGraphicsScene/myGraphicsScene.h \
  /home/mr-geri/Проекты/c/two_course/coursework/randomPoints/randomPoints.h \
  /usr/include/qt5/QtCore/QPoint /usr/include/qt5/QtCore/qpoint.h \
- /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/OIYP2VNH46/moc_myGraphicScene.cpp \
- /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/VCNREXAN4N/moc_myGraphicView.cpp
+ /usr/include/qt5/QtWidgets/QGraphicsEllipseItem \
+ /usr/include/qt5/QtGui/QKeyEvent /usr/include/qt5/QtGui/qevent.h \
+ /usr/include/qt5/QtCore/qurl.h /usr/include/qt5/QtCore/qfile.h \
+ /usr/include/qt5/QtCore/qfiledevice.h /usr/include/qt5/QtGui/qvector2d.h \
+ /usr/include/qt5/QtGui/qtouchdevice.h /usr/include/c++/12/iostream \
+ /usr/include/c++/12/ostream /usr/include/c++/12/ios \
+ /usr/include/c++/12/bits/basic_ios.h \
+ /usr/include/c++/12/bits/locale_facets.h /usr/include/c++/12/cwctype \
+ /usr/include/wctype.h /usr/include/bits/wctype-wchar.h \
+ /usr/include/c++/12/x86_64-redhat-linux/bits/ctype_base.h \
+ /usr/include/c++/12/x86_64-redhat-linux/bits/ctype_inline.h \
+ /usr/include/c++/12/bits/locale_facets.tcc \
+ /usr/include/c++/12/bits/basic_ios.tcc \
+ /usr/include/c++/12/bits/ostream.tcc /usr/include/c++/12/istream \
+ /usr/include/c++/12/bits/istream.tcc \
+ /usr/include/qt5/QtCore/qnamespace.h \
+ /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/XOEUU6UFBV/moc_myGraphicsScene.cpp \
+ /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/GG7VQ6K56N/moc_myGraphicsView.cpp

@@ -1,9 +1,16 @@
 /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/TXKPOHTVN7/moc_main_window.cpp: /home/mr-geri/Проекты/c/two_course/coursework/main_window/main_window.h \
   /home/mr-geri/Проекты/c/two_course/coursework/coursework_autogen/moc_predefs.h \
   /home/mr-geri/Проекты/c/two_course/coursework/constants.h \
+  /home/mr-geri/Проекты/c/two_course/coursework/figures/arrow/arrow.h \
   /home/mr-geri/Проекты/c/two_course/coursework/figures/figure/figure.h \
-  /home/mr-geri/Проекты/c/two_course/coursework/myGraphicScene/myGraphicScene.h \
-  /home/mr-geri/Проекты/c/two_course/coursework/myGraphicView/myGraphicView.h \
+  /home/mr-geri/Проекты/c/two_course/coursework/figures/hexagon/hexagon.h \
+  /home/mr-geri/Проекты/c/two_course/coursework/figures/line/line.h \
+  /home/mr-geri/Проекты/c/two_course/coursework/figures/parallelepiped/parallelepiped.h \
+  /home/mr-geri/Проекты/c/two_course/coursework/figures/rectangle/rectangle.h \
+  /home/mr-geri/Проекты/c/two_course/coursework/figures/rectangleOval/rectangleOval.h \
+  /home/mr-geri/Проекты/c/two_course/coursework/figures/rhomb/rhomb.h \
+  /home/mr-geri/Проекты/c/two_course/coursework/myGraphicsScene/myGraphicsScene.h \
+  /home/mr-geri/Проекты/c/two_course/coursework/myGraphicsView/myGraphicsView.h \
   /home/mr-geri/Проекты/c/two_course/coursework/randomPoints/randomPoints.h \
   /home/mr-geri/Проекты/c/two_course/coursework/text/text.h \
   /usr/include/asm-generic/errno-base.h \
@@ -104,6 +111,7 @@
   /usr/include/c++/12/bits/hash_bytes.h \
   /usr/include/c++/12/bits/invoke.h \
   /usr/include/c++/12/bits/ios_base.h \
+  /usr/include/c++/12/bits/istream.tcc \
   /usr/include/c++/12/bits/iterator_concepts.h \
   /usr/include/c++/12/bits/list.tcc \
   /usr/include/c++/12/bits/locale_classes.h \
@@ -135,6 +143,7 @@
   /usr/include/c++/12/bits/shared_ptr.h \
   /usr/include/c++/12/bits/shared_ptr_atomic.h \
   /usr/include/c++/12/bits/shared_ptr_base.h \
+  /usr/include/c++/12/bits/specfun.h \
   /usr/include/c++/12/bits/std_abs.h \
   /usr/include/c++/12/bits/std_function.h \
   /usr/include/c++/12/bits/std_mutex.h \
@@ -173,6 +182,7 @@
   /usr/include/c++/12/cerrno \
   /usr/include/c++/12/climits \
   /usr/include/c++/12/clocale \
+  /usr/include/c++/12/cmath \
   /usr/include/c++/12/compare \
   /usr/include/c++/12/concepts \
   /usr/include/c++/12/cstddef \
@@ -194,6 +204,8 @@
   /usr/include/c++/12/initializer_list \
   /usr/include/c++/12/ios \
   /usr/include/c++/12/iosfwd \
+  /usr/include/c++/12/iostream \
+  /usr/include/c++/12/istream \
   /usr/include/c++/12/iterator \
   /usr/include/c++/12/limits \
   /usr/include/c++/12/list \
@@ -212,6 +224,18 @@
   /usr/include/c++/12/streambuf \
   /usr/include/c++/12/string \
   /usr/include/c++/12/string_view \
+  /usr/include/c++/12/tr1/bessel_function.tcc \
+  /usr/include/c++/12/tr1/beta_function.tcc \
+  /usr/include/c++/12/tr1/ell_integral.tcc \
+  /usr/include/c++/12/tr1/exp_integral.tcc \
+  /usr/include/c++/12/tr1/gamma.tcc \
+  /usr/include/c++/12/tr1/hypergeometric.tcc \
+  /usr/include/c++/12/tr1/legendre_function.tcc \
+  /usr/include/c++/12/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/12/tr1/poly_hermite.tcc \
+  /usr/include/c++/12/tr1/poly_laguerre.tcc \
+  /usr/include/c++/12/tr1/riemann_zeta.tcc \
+  /usr/include/c++/12/tr1/special_function_util.h \
   /usr/include/c++/12/tuple \
   /usr/include/c++/12/type_traits \
   /usr/include/c++/12/typeinfo \
@@ -263,6 +287,8 @@
   /usr/include/qt5/QtCore/qdatastream.h \
   /usr/include/qt5/QtCore/qdebug.h \
   /usr/include/qt5/QtCore/qeventloop.h \
+  /usr/include/qt5/QtCore/qfile.h \
+  /usr/include/qt5/QtCore/qfiledevice.h \
   /usr/include/qt5/QtCore/qflags.h \
   /usr/include/qt5/QtCore/qgenericatomic.h \
   /usr/include/qt5/QtCore/qglobal.h \
@@ -308,15 +334,18 @@
   /usr/include/qt5/QtCore/qtextstream.h \
   /usr/include/qt5/QtCore/qtimer.h \
   /usr/include/qt5/QtCore/qtypeinfo.h \
+  /usr/include/qt5/QtCore/qurl.h \
   /usr/include/qt5/QtCore/qvariant.h \
   /usr/include/qt5/QtCore/qvarlengtharray.h \
   /usr/include/qt5/QtCore/qvector.h \
   /usr/include/qt5/QtCore/qversiontagging.h \
   /usr/include/qt5/QtGui/QCursor \
+  /usr/include/qt5/QtGui/QKeyEvent \
   /usr/include/qt5/QtGui/QPainter \
   /usr/include/qt5/QtGui/qbrush.h \
   /usr/include/qt5/QtGui/qcolor.h \
   /usr/include/qt5/QtGui/qcursor.h \
+  /usr/include/qt5/QtGui/qevent.h \
   /usr/include/qt5/QtGui/qfont.h \
   /usr/include/qt5/QtGui/qfontinfo.h \
   /usr/include/qt5/QtGui/qfontmetrics.h \
@@ -340,9 +369,12 @@
   /usr/include/qt5/QtGui/qtextoption.h \
   /usr/include/qt5/QtGui/qtgui-config.h \
   /usr/include/qt5/QtGui/qtguiglobal.h \
+  /usr/include/qt5/QtGui/qtouchdevice.h \
   /usr/include/qt5/QtGui/qtransform.h \
+  /usr/include/qt5/QtGui/qvector2d.h \
   /usr/include/qt5/QtGui/qwindowdefs.h \
   /usr/include/qt5/QtWidgets/QApplication \
+  /usr/include/qt5/QtWidgets/QGraphicsEllipseItem \
   /usr/include/qt5/QtWidgets/QGraphicsItem \
   /usr/include/qt5/QtWidgets/QGraphicsItemGroup \
   /usr/include/qt5/QtWidgets/QGraphicsScene \
