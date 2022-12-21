@@ -12,6 +12,8 @@ public:
   explicit Hexagon(QPointF point, QObject *parent = 0);
   ~Hexagon();
 
+  Hexagon* clone();
+
 private:
   void paint(QPainter *painter, const QStyleOptionGraphicsItem *option,
              QWidget *widget);

@@ -39,6 +39,15 @@ void myGraphicsScene::mousePressEvent(QGraphicsSceneMouseEvent *event) {
       this->update(QRectF(0, 0, this->width(), this->height()));
       return;
     }
+    if (flag_ctrl && copy_active_item == nullptr && flag_move) {
+      copy_active_item = m_activeItem->clone();
+      copy_active_item->setStartPoint(copy_active_item->startPoint() + QPointF(10, 10));
+      copy_active_item->setEndPoint(copy_active_item->endPoint() + QPointF(10, 10));
+      addItem(copy_active_item);
+      if (copy_active_item->text != nullptr)
+        addItem(copy_active_item->text);
+      m_activeItem = copy_active_item;
+    }
   } else {
     switch (currentItem) {
     case constants::Rhomb:
@@ -117,10 +126,21 @@ void myGraphicsScene::mouseMoveEvent(QGraphicsSceneMouseEvent *event) {
 void myGraphicsScene::mouseReleaseEvent(QGraphicsSceneMouseEvent *event) {
   QGraphicsScene::mouseReleaseEvent(event);
   m_activeItem = nullptr;
+  copy_active_item = nullptr;
 }
 
 void myGraphicsScene::keyPressEvent(QKeyEvent *event) {
   QGraphicsScene::keyPressEvent(event);
+  if (event->key() == Qt::Key_Control) {
+    flag_ctrl = true;
+  }
+}
+
+void myGraphicsScene::keyReleaseEvent(QKeyEvent *event) {
+  QGraphicsScene::keyPressEvent(event);
+  if (event->key() == Qt::Key_Control) {
+    flag_ctrl = false;
+  }
 }
 
 void myGraphicsScene::setActiveItem(constants::Items item) {

@@ -12,6 +12,9 @@ public:
   explicit Line(QPointF point, QObject *parent = 0);
   ~Line();
 
+  Line* clone();
+
+
 private:
   void paint(QPainter *painter, const QStyleOptionGraphicsItem *option,
              QWidget *widget);

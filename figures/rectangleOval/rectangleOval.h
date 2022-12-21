@@ -13,6 +13,8 @@ public:
   explicit RectangleOval(QPointF point, QObject *parent = 0);
   ~RectangleOval();
 
+  RectangleOval* clone();
+
 private:
   void paint(QPainter *painter, const QStyleOptionGraphicsItem *option,
              QWidget *widget);

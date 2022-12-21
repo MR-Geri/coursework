@@ -20,8 +20,10 @@ private slots:
                           * таймера в нём будет производиться
                           * перерисовка виджета
                           * */
-private:
+public:
   myGraphicsScene *scene; // Объявляем сцену для отрисовки
+
+private:
   QGraphicsItemGroup *group_1; // Объявляем первую группу элементов
   QGraphicsItemGroup *group_2; // Объявляем вторую группу элементов
 

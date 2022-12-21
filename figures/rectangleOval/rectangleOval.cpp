@@ -72,3 +72,11 @@ void RectangleOval::paint(QPainter *painter,
   Q_UNUSED(option)
   Q_UNUSED(widget)
 }
+
+RectangleOval* RectangleOval::clone(){
+  RectangleOval *out = new RectangleOval(startPoint());
+  out->setEndPoint(endPoint());
+  out->text = new TextItem();
+  out->text->setPlainText(this->text->toPlainText());
+  return out;
+}

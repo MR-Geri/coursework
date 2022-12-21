@@ -33,11 +33,14 @@ protected:
   void mouseReleaseEvent(QGraphicsSceneMouseEvent *event) override;
   void mouseMoveEvent(QGraphicsSceneMouseEvent *event) override;
   void keyPressEvent(QKeyEvent *event) override;
+  void keyReleaseEvent(QKeyEvent *event) override;
 
   Figure *m_activeItem;
+  Figure *copy_active_item = nullptr;
 
 private:
   constants::Items currentItem;
   bool flag_move = false;
+  bool flag_ctrl = false;
   QPointF offset;
 };

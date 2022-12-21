@@ -42,3 +42,10 @@ void Arrow::paint(QPainter *painter, const QStyleOptionGraphicsItem *option,
   Q_UNUSED(option)
   Q_UNUSED(widget)
 }
+
+Arrow* Arrow::clone(){
+  Arrow *out = new Arrow(startPoint());
+  out->setEndPoint(endPoint());
+  out->text = nullptr;
+  return out;
+}

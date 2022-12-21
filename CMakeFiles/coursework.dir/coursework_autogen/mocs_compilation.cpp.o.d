@@ -297,6 +297,11 @@ CMakeFiles/coursework.dir/coursework_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt5/QtCore/QString /usr/include/qt5/QtCore/qstring.h \
  /usr/include/qt5/QtCore/QVector /usr/include/qt5/QtCore/qvector.h \
  /home/mr-geri/Проекты/c/two_course/coursework/constants.h \
+ /usr/include/qt5/QtWidgets/QFileDialog \
+ /usr/include/qt5/QtWidgets/qfiledialog.h /usr/include/qt5/QtCore/qdir.h \
+ /usr/include/qt5/QtCore/qfileinfo.h /usr/include/qt5/QtCore/qfile.h \
+ /usr/include/qt5/QtCore/qfiledevice.h /usr/include/qt5/QtCore/qurl.h \
+ /usr/include/qt5/QtWidgets/qdialog.h \
  /home/mr-geri/Проекты/c/two_course/coursework/myGraphicsView/myGraphicsView.h \
  /usr/include/qt5/QtWidgets/QGraphicsItemGroup \
  /usr/include/qt5/QtCore/QTimer /usr/include/qt5/QtCore/qtimer.h \
@@ -307,11 +312,9 @@ CMakeFiles/coursework.dir/coursework_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt5/QtCore/QPoint /usr/include/qt5/QtCore/qpoint.h \
  /usr/include/qt5/QtWidgets/QGraphicsEllipseItem \
  /usr/include/qt5/QtGui/QKeyEvent /usr/include/qt5/QtGui/qevent.h \
- /usr/include/qt5/QtCore/qurl.h /usr/include/qt5/QtCore/qfile.h \
- /usr/include/qt5/QtCore/qfiledevice.h /usr/include/qt5/QtGui/qvector2d.h \
- /usr/include/qt5/QtGui/qtouchdevice.h /usr/include/c++/12/iostream \
- /usr/include/c++/12/ostream /usr/include/c++/12/ios \
- /usr/include/c++/12/bits/basic_ios.h \
+ /usr/include/qt5/QtGui/qvector2d.h /usr/include/qt5/QtGui/qtouchdevice.h \
+ /usr/include/c++/12/iostream /usr/include/c++/12/ostream \
+ /usr/include/c++/12/ios /usr/include/c++/12/bits/basic_ios.h \
  /usr/include/c++/12/bits/locale_facets.h /usr/include/c++/12/cwctype \
  /usr/include/wctype.h /usr/include/bits/wctype-wchar.h \
  /usr/include/c++/12/x86_64-redhat-linux/bits/ctype_base.h \

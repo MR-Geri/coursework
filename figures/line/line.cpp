@@ -16,3 +16,10 @@ void Line::paint(QPainter *painter, const QStyleOptionGraphicsItem *option,
   Q_UNUSED(option)
   Q_UNUSED(widget)
 }
+
+Line* Line::clone(){
+  Line *out = new Line(startPoint());
+  out->setEndPoint(endPoint());
+  out->text = nullptr;
+  return out;
+}

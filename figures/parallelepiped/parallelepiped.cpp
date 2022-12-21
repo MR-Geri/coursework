@@ -43,3 +43,11 @@ void Parallelepiped::paint(QPainter *painter, const QStyleOptionGraphicsItem *op
   Q_UNUSED(option)
   Q_UNUSED(widget)
 }
+
+Parallelepiped* Parallelepiped::clone(){
+  Parallelepiped *out = new Parallelepiped(startPoint());
+  out->setEndPoint(endPoint());
+  out->text = new TextItem();
+  out->text->setPlainText(this->text->toPlainText());
+  return out;
+}

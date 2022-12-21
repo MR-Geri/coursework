@@ -59,3 +59,4 @@ install(TARGETS coursework
 if(QT_VERSION_MAJOR EQUAL 6)
     qt_finalize_executable(coursework)
 endif()
+

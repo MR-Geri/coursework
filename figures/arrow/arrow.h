@@ -13,6 +13,8 @@ public:
   explicit Arrow(QPointF point, QObject *parent = 0);
   ~Arrow();
 
+  Arrow* clone();
+
 private:
   void paint(QPainter *painter, const QStyleOptionGraphicsItem *option,
              QWidget *widget);

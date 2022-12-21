@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_MainWindow_t {
-    QByteArrayData data[12];
-    char stringdata0[158];
+    QByteArrayData data[15];
+    char stringdata0[196];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -43,13 +43,17 @@ QT_MOC_LITERAL(7, 75, 20), // "clickedRectangleOval"
 QT_MOC_LITERAL(8, 96, 21), // "clickedParallelepiped"
 QT_MOC_LITERAL(9, 118, 14), // "clickedHexagon"
 QT_MOC_LITERAL(10, 133, 11), // "clickedLine"
-QT_MOC_LITERAL(11, 145, 12) // "clickedArrow"
+QT_MOC_LITERAL(11, 145, 12), // "clickedArrow"
+QT_MOC_LITERAL(12, 158, 13), // "clickedExport"
+QT_MOC_LITERAL(13, 172, 11), // "clickedSave"
+QT_MOC_LITERAL(14, 184, 11) // "clickedLoad"
 
     },
     "MainWindow\0changeItem\0\0constants::Items\0"
     "item\0clickedRhomb\0clickedRectangle\0"
     "clickedRectangleOval\0clickedParallelepiped\0"
-    "clickedHexagon\0clickedLine\0clickedArrow"
+    "clickedHexagon\0clickedLine\0clickedArrow\0"
+    "clickedExport\0clickedSave\0clickedLoad"
 };
 #undef QT_MOC_LITERAL
 
@@ -59,7 +63,7 @@ static const uint qt_meta_data_MainWindow[] = {
        8,       // revision
        0,       // classname
        0,    0, // classinfo
-       8,   14, // methods
+      11,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -67,21 +71,27 @@ static const uint qt_meta_data_MainWindow[] = {
        1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    1,   54,    2, 0x06 /* Public */,
+       1,    1,   69,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       5,    0,   57,    2, 0x08 /* Private */,
-       6,    0,   58,    2, 0x08 /* Private */,
-       7,    0,   59,    2, 0x08 /* Private */,
-       8,    0,   60,    2, 0x08 /* Private */,
-       9,    0,   61,    2, 0x08 /* Private */,
-      10,    0,   62,    2, 0x08 /* Private */,
-      11,    0,   63,    2, 0x08 /* Private */,
+       5,    0,   72,    2, 0x08 /* Private */,
+       6,    0,   73,    2, 0x08 /* Private */,
+       7,    0,   74,    2, 0x08 /* Private */,
+       8,    0,   75,    2, 0x08 /* Private */,
+       9,    0,   76,    2, 0x08 /* Private */,
+      10,    0,   77,    2, 0x08 /* Private */,
+      11,    0,   78,    2, 0x08 /* Private */,
+      12,    0,   79,    2, 0x08 /* Private */,
+      13,    0,   80,    2, 0x08 /* Private */,
+      14,    0,   81,    2, 0x08 /* Private */,
 
  // signals: parameters
     QMetaType::Void, 0x80000000 | 3,    4,
 
  // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
@@ -107,6 +117,9 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 5: _t->clickedHexagon(); break;
         case 6: _t->clickedLine(); break;
         case 7: _t->clickedArrow(); break;
+        case 8: _t->clickedExport(); break;
+        case 9: _t->clickedSave(); break;
+        case 10: _t->clickedLoad(); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -150,13 +163,13 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 8)
+        if (_id < 11)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 8;
+        _id -= 11;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 8)
+        if (_id < 11)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 8;
+        _id -= 11;
     }
     return _id;
 }

@@ -5,6 +5,7 @@
 #include <QString>
 #include <QVector>
 #include <constants.h>
+#include <QFileDialog>
 
 #include <myGraphicsView/myGraphicsView.h>
 
@@ -33,6 +34,9 @@ private slots:
   void clickedHexagon();
   void clickedLine();
   void clickedArrow();
+  void clickedExport();
+  void clickedSave();
+  void clickedLoad();
 
 signals:
   void changeItem(constants::Items item);

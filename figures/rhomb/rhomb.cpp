@@ -33,3 +33,11 @@ void Rhomb::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWi
   Q_UNUSED(option)
   Q_UNUSED(widget)
 }
+
+Rhomb* Rhomb::clone(){
+  Rhomb *out = new Rhomb(startPoint());
+  out->setEndPoint(endPoint());
+  out->text = new TextItem();
+  out->text->setPlainText(this->text->toPlainText());
+  return out;
+}

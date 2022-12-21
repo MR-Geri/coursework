@@ -58,3 +58,11 @@ void Hexagon::paint(QPainter *painter, const QStyleOptionGraphicsItem *option,
   Q_UNUSED(option)
   Q_UNUSED(widget)
 }
+
+Hexagon* Hexagon::clone(){
+  Hexagon *out = new Hexagon(startPoint());
+  out->setEndPoint(endPoint());
+  out->text = new TextItem();
+  out->text->setPlainText(this->text->toPlainText());
+  return out;
+}

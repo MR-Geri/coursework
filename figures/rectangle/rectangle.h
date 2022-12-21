@@ -12,6 +12,8 @@ public:
   explicit Rectangle(QPointF point, QObject *parent = 0);
   ~Rectangle();
 
+  Rectangle* clone();
+
 private:
   void paint(QPainter *painter, const QStyleOptionGraphicsItem *option,
              QWidget *widget);

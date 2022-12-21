@@ -13,6 +13,7 @@
 #include <QtGui/QIcon>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QGridLayout>
+#include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QScrollArea>
@@ -27,7 +28,6 @@ class Ui_MainWindow
 public:
     QWidget *centralwidget;
     QGridLayout *gridLayout;
-    myGraphicsView *graphicsView;
     QScrollArea *scrollArea;
     QWidget *scrollAreaWidgetContents_2;
     QVBoxLayout *verticalLayout;
@@ -38,6 +38,12 @@ public:
     QPushButton *buttonHexagon;
     QPushButton *buttonLine;
     QPushButton *buttonArrow;
+    QGridLayout *gridLayout_2;
+    myGraphicsView *graphicsView;
+    QHBoxLayout *horizontalLayout;
+    QPushButton *buttonSave;
+    QPushButton *buttonLoad;
+    QPushButton *buttonExport;
 
     void setupUi(QMainWindow *MainWindow)
     {
@@ -49,12 +55,6 @@ public:
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         gridLayout = new QGridLayout(centralwidget);
         gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
-        graphicsView = new myGraphicsView(centralwidget);
-        graphicsView->setObjectName(QString::fromUtf8("graphicsView"));
-        graphicsView->setMinimumSize(QSize(256, 256));
-
-        gridLayout->addWidget(graphicsView, 0, 1, 1, 1);
-
         scrollArea = new QScrollArea(centralwidget);
         scrollArea->setObjectName(QString::fromUtf8("scrollArea"));
         QSizePolicy sizePolicy(QSizePolicy::Maximum, QSizePolicy::Minimum);
@@ -158,6 +158,37 @@ public:
 
         gridLayout->addWidget(scrollArea, 0, 0, 1, 1);
 
+        gridLayout_2 = new QGridLayout();
+        gridLayout_2->setObjectName(QString::fromUtf8("gridLayout_2"));
+        graphicsView = new myGraphicsView(centralwidget);
+        graphicsView->setObjectName(QString::fromUtf8("graphicsView"));
+        graphicsView->setMinimumSize(QSize(256, 256));
+
+        gridLayout_2->addWidget(graphicsView, 4, 0, 1, 1);
+
+        horizontalLayout = new QHBoxLayout();
+        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
+        buttonSave = new QPushButton(centralwidget);
+        buttonSave->setObjectName(QString::fromUtf8("buttonSave"));
+
+        horizontalLayout->addWidget(buttonSave);
+
+        buttonLoad = new QPushButton(centralwidget);
+        buttonLoad->setObjectName(QString::fromUtf8("buttonLoad"));
+
+        horizontalLayout->addWidget(buttonLoad);
+
+        buttonExport = new QPushButton(centralwidget);
+        buttonExport->setObjectName(QString::fromUtf8("buttonExport"));
+
+        horizontalLayout->addWidget(buttonExport);
+
+
+        gridLayout_2->addLayout(horizontalLayout, 1, 0, 1, 1);
+
+
+        gridLayout->addLayout(gridLayout_2, 0, 1, 1, 1);
+
         MainWindow->setCentralWidget(centralwidget);
 
         retranslateUi(MainWindow);
@@ -175,6 +206,9 @@ public:
         buttonHexagon->setText(QString());
         buttonLine->setText(QString());
         buttonArrow->setText(QString());
+        buttonSave->setText(QCoreApplication::translate("MainWindow", "\320\241\320\276\321\205\321\200\320\260\320\275\320\270\321\202\321\214", nullptr));
+        buttonLoad->setText(QCoreApplication::translate("MainWindow", "\320\227\320\260\320\263\321\200\321\203\320\267\320\270\321\202\321\214", nullptr));
+        buttonExport->setText(QCoreApplication::translate("MainWindow", "\320\241\320\263\320\265\320\275\320\265\321\200\320\270\321\200\320\276\320\262\320\260\321\202\321\214 \320\272\320\260\321\200\321\202\320\270\320\275\320\272\321\203", nullptr));
     } // retranslateUi
 
 };

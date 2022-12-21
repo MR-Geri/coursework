@@ -30,6 +30,8 @@ public:
   void setStartPoint(const QPointF point); // Установка стартовой точки
   void setEndPoint(const QPointF point); // Установка конечной точки
 
+  virtual Figure* clone() = 0;
+
   // void mouseMoveEvent(QGraphicsSceneMouseEvent *event);
   // void mousePressEvent(QGraphicsSceneMouseEvent *event);
   // void mouseReleaseEvent(QGraphicsSceneMouseEvent *event);

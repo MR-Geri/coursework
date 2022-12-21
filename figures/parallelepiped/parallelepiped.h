@@ -12,6 +12,8 @@ public:
   explicit Parallelepiped(QPointF point, QObject *parent = 0);
   ~Parallelepiped();
 
+  Parallelepiped* clone();
+
 private:
   void paint(QPainter *painter, const QStyleOptionGraphicsItem *option,
              QWidget *widget);

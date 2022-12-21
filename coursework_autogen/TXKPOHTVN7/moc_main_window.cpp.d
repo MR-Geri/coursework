@@ -286,9 +286,11 @@
   /usr/include/qt5/QtCore/qcoreevent.h \
   /usr/include/qt5/QtCore/qdatastream.h \
   /usr/include/qt5/QtCore/qdebug.h \
+  /usr/include/qt5/QtCore/qdir.h \
   /usr/include/qt5/QtCore/qeventloop.h \
   /usr/include/qt5/QtCore/qfile.h \
   /usr/include/qt5/QtCore/qfiledevice.h \
+  /usr/include/qt5/QtCore/qfileinfo.h \
   /usr/include/qt5/QtCore/qflags.h \
   /usr/include/qt5/QtCore/qgenericatomic.h \
   /usr/include/qt5/QtCore/qglobal.h \
@@ -374,6 +376,7 @@
   /usr/include/qt5/QtGui/qvector2d.h \
   /usr/include/qt5/QtGui/qwindowdefs.h \
   /usr/include/qt5/QtWidgets/QApplication \
+  /usr/include/qt5/QtWidgets/QFileDialog \
   /usr/include/qt5/QtWidgets/QGraphicsEllipseItem \
   /usr/include/qt5/QtWidgets/QGraphicsItem \
   /usr/include/qt5/QtWidgets/QGraphicsItemGroup \
@@ -385,6 +388,8 @@
   /usr/include/qt5/QtWidgets/QWidget \
   /usr/include/qt5/QtWidgets/qabstractscrollarea.h \
   /usr/include/qt5/QtWidgets/qapplication.h \
+  /usr/include/qt5/QtWidgets/qdialog.h \
+  /usr/include/qt5/QtWidgets/qfiledialog.h \
   /usr/include/qt5/QtWidgets/qframe.h \
   /usr/include/qt5/QtWidgets/qgraphicsitem.h \
   /usr/include/qt5/QtWidgets/qgraphicsscene.h \

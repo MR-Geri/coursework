@@ -234,6 +234,11 @@ CMakeFiles/coursework.dir/main_window/main_window.cpp.o: \
  /usr/include/qt5/QtCore/qstring.h /usr/include/qt5/QtCore/QVector \
  /usr/include/qt5/QtCore/qvector.h \
  /home/mr-geri/Проекты/c/two_course/coursework/constants.h \
+ /usr/include/qt5/QtWidgets/QFileDialog \
+ /usr/include/qt5/QtWidgets/qfiledialog.h /usr/include/qt5/QtCore/qdir.h \
+ /usr/include/qt5/QtCore/qfileinfo.h /usr/include/qt5/QtCore/qfile.h \
+ /usr/include/qt5/QtCore/qfiledevice.h /usr/include/qt5/QtCore/qurl.h \
+ /usr/include/qt5/QtWidgets/qdialog.h \
  /home/mr-geri/Проекты/c/two_course/coursework/myGraphicsView/myGraphicsView.h \
  /usr/include/qt5/QtWidgets/QGraphicsItemGroup \
  /usr/include/qt5/QtWidgets/qgraphicsitem.h \
@@ -258,11 +263,9 @@ CMakeFiles/coursework.dir/main_window/main_window.cpp.o: \
  /usr/include/qt5/QtWidgets/qgraphicssceneevent.h \
  /usr/include/qt5/QtCore/qcoreevent.h /usr/include/qt5/QtCore/qset.h \
  /usr/include/qt5/QtGui/QKeyEvent /usr/include/qt5/QtGui/qevent.h \
- /usr/include/qt5/QtCore/qurl.h /usr/include/qt5/QtCore/qfile.h \
- /usr/include/qt5/QtCore/qfiledevice.h /usr/include/qt5/QtGui/qvector2d.h \
- /usr/include/qt5/QtGui/qtouchdevice.h /usr/include/c++/12/iostream \
- /usr/include/c++/12/ostream /usr/include/c++/12/ios \
- /usr/include/c++/12/bits/basic_ios.h \
+ /usr/include/qt5/QtGui/qvector2d.h /usr/include/qt5/QtGui/qtouchdevice.h \
+ /usr/include/c++/12/iostream /usr/include/c++/12/ostream \
+ /usr/include/c++/12/ios /usr/include/c++/12/bits/basic_ios.h \
  /usr/include/c++/12/bits/locale_facets.h /usr/include/c++/12/cwctype \
  /usr/include/wctype.h /usr/include/bits/wctype-wchar.h \
  /usr/include/c++/12/x86_64-redhat-linux/bits/ctype_base.h \
@@ -324,6 +327,8 @@ CMakeFiles/coursework.dir/main_window/main_window.cpp.o: \
  /usr/include/qt5/QtWidgets/qlayoutitem.h \
  /usr/include/qt5/QtWidgets/qboxlayout.h \
  /usr/include/qt5/QtWidgets/qgridlayout.h \
+ /usr/include/qt5/QtWidgets/QHBoxLayout \
+ /usr/include/qt5/QtWidgets/qboxlayout.h \
  /usr/include/qt5/QtWidgets/QMainWindow \
  /usr/include/qt5/QtWidgets/QPushButton \
  /usr/include/qt5/QtWidgets/qpushbutton.h \
@@ -331,5 +336,14 @@ CMakeFiles/coursework.dir/main_window/main_window.cpp.o: \
  /usr/include/qt5/QtWidgets/QScrollArea \
  /usr/include/qt5/QtWidgets/qscrollarea.h \
  /usr/include/qt5/QtWidgets/QVBoxLayout \
- /usr/include/qt5/QtWidgets/qboxlayout.h \
- /usr/include/qt5/QtWidgets/QWidget
+ /usr/include/qt5/QtWidgets/QWidget /usr/include/qt5/QtCore/QFile \
+ /usr/include/qt5/QtCore/qfile.h /usr/include/qt5/QtCore/QJsonArray \
+ /usr/include/qt5/QtCore/qjsonarray.h \
+ /usr/include/qt5/QtCore/qjsonvalue.h \
+ /usr/include/qt5/QtCore/qcborvalue.h /usr/include/qt5/QtCore/qdatetime.h \
+ /usr/include/qt5/QtCore/qcborcommon.h /usr/include/qt5/QtCore/qdebug.h \
+ /usr/include/qt5/QtCore/qregularexpression.h \
+ /usr/include/qt5/QtCore/quuid.h /usr/include/qt5/QtCore/QJsonDocument \
+ /usr/include/qt5/QtCore/qjsondocument.h \
+ /usr/include/qt5/QtCore/QJsonObject \
+ /usr/include/qt5/QtCore/qjsonobject.h /usr/include/qt5/QtCore/qlist.h

@@ -31,3 +31,11 @@ void Rectangle::paint(QPainter *painter, const QStyleOptionGraphicsItem *option,
   Q_UNUSED(option)
   Q_UNUSED(widget)
 }
+
+Rectangle* Rectangle::clone(){
+  Rectangle *out = new Rectangle(startPoint());
+  out->setEndPoint(endPoint());
+  out->text = new TextItem();
+  out->text->setPlainText(this->text->toPlainText());
+  return out;
+}
